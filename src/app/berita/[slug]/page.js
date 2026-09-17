@@ -212,6 +212,9 @@ export async function generateMetadata({ params }) {
 
   let title = localArticle ? localArticle.title : slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   let description = localArticle ? localArticle.excerpt : `Baca berita dan liputan resmi: ${title}`;
+  let image = localArticle ? localArticle.image : '/images/hero-bg.png';
+  let publishedDate = localArticle ? localArticle.date : null;
+  let author = localArticle ? localArticle.author : 'Tim Redaksi STIE ARLINDO';
 
   // Attempt backend API fetch
   try {
@@ -221,6 +224,9 @@ export async function generateMetadata({ params }) {
       if (json.data && json.data.title) {
         title = json.data.title;
         description = json.data.excerpt || description;
+        image = json.data.image ? formatImageUrl(json.data.image) : image;
+        publishedDate = json.data.published_at || json.data.created_at || publishedDate;
+        author = json.data.author || author;
       }
     }
   } catch (err) {
@@ -230,10 +236,31 @@ export async function generateMetadata({ params }) {
   return {
     title: `${title} | STIE ARLINDO`,
     description,
+    alternates: {
+      canonical: `/berita/${slug}`,
+    },
     openGraph: {
       title,
       description,
+      url: `https://arlindo.ac.id/berita/${slug}`,
       type: 'article',
+      publishedTime: publishedDate || undefined,
+      authors: [author],
+      siteName: 'STIE ARLINDO',
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [image],
     },
   };
 }
@@ -323,12 +350,74 @@ export default async function BeritaDetailPage({ params }) {
     .filter(item => item.slug !== slug)
     .slice(0, 4);
 
+  // JSON-LD Article Structured Data
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.excerpt,
+    image: article.image ? `https://arlindo.ac.id${article.image.startsWith('/') ? article.image : `/${article.image}`}` : 'https://arlindo.ac.id/images/hero-bg.png',
+    datePublished: article.date,
+    author: {
+      '@type': 'Organization',
+      name: article.author || 'STIE ARLINDO',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'STIE ARLINDO',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://arlindo.ac.id/images/hero-bg.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://arlindo.ac.id/berita/${slug}`,
+    },
+  };
+
+  // BreadcrumbList Structured Data
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Beranda',
+        item: 'https://arlindo.ac.id',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Berita',
+        item: 'https://arlindo.ac.id/berita',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: article.title,
+        item: `https://arlindo.ac.id/berita/${slug}`,
+      },
+    ],
+  };
+
   return (
-    <BeritaDetailClient
-      article={article}
-      relatedArticles={relatedArticles}
-      categories={dynamicCategories}
-      recentArticles={recentArticles}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <BeritaDetailClient
+        article={article}
+        relatedArticles={relatedArticles}
+        categories={dynamicCategories}
+        recentArticles={recentArticles}
+      />
+    </>
   );
 }

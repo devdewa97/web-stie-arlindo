@@ -13,6 +13,31 @@ export const metadata = {
     'Prestasi Mahasiswa Arlindo',
     'Kemitraan Arlindo Group',
   ],
+  alternates: {
+    canonical: '/berita',
+  },
+  openGraph: {
+    title: 'Berita & Pengumuman Resmi — STIE ARLINDO',
+    description:
+      'Warta kegiatan akademik, prestasi mahasiswa, seminar nasional, kemitraan industri, dan informasi resmi STIE ARLINDO.',
+    url: 'https://arlindo.ac.id/berita',
+    type: 'website',
+    images: [
+      {
+        url: '/images/hero-bg.png',
+        width: 1200,
+        height: 630,
+        alt: 'Berita & Pengumuman STIE ARLINDO',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Berita & Pengumuman Resmi — STIE ARLINDO',
+    description:
+      'Warta kegiatan akademik, prestasi mahasiswa, seminar nasional, kemitraan industri, dan informasi resmi STIE ARLINDO.',
+    images: ['/images/hero-bg.png'],
+  },
 };
 
 const defaultNewsData = [
