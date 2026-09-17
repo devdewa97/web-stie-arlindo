@@ -1,0 +1,101 @@
+/* [project]/src/components/BackToTop/BackToTop.module.css [app-client] (css) */
+.BackToTop-module__VQI20W__backToTop {
+  z-index: 990;
+  width: 48px;
+  height: 48px;
+  color: var(--gold-400, #e5c05c);
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(12px);
+  opacity: 0;
+  visibility: hidden;
+  background: #0a1628e0;
+  border: 1.5px solid #d4a84373;
+  border-radius: 50%;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  transition: all .35s cubic-bezier(.34, 1.56, .64, 1);
+  display: flex;
+  position: fixed;
+  bottom: 28px;
+  left: 28px;
+  transform: translateY(20px)scale(.85);
+  box-shadow: 0 8px 24px #060d1a59, 0 2px 8px #d4a84333;
+}
+
+.BackToTop-module__VQI20W__backToTop.BackToTop-module__VQI20W__visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0)scale(1);
+}
+
+.BackToTop-module__VQI20W__backToTop:hover {
+  border-color: var(--gold-400, #e5c05c);
+  color: #fff;
+  background: #0f2042f2;
+  transform: translateY(-4px)scale(1.06);
+  box-shadow: 0 12px 28px #060d1a80, 0 0 20px #d4a84373;
+}
+
+.BackToTop-module__VQI20W__backToTop:active {
+  transform: translateY(0)scale(.96);
+}
+
+.BackToTop-module__VQI20W__iconWrapper {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: transform .3s;
+  display: flex;
+}
+
+.BackToTop-module__VQI20W__backToTop:hover .BackToTop-module__VQI20W__iconWrapper {
+  transform: translateY(-2px);
+}
+
+.BackToTop-module__VQI20W__arrowIcon {
+  stroke: currentColor;
+  transition: stroke .2s;
+}
+
+.BackToTop-module__VQI20W__tooltip {
+  color: #fff;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background: #060d1aeb;
+  border: 1px solid #d4a8434d;
+  border-radius: 6px;
+  padding: .35rem .65rem;
+  font-size: .75rem;
+  font-weight: 600;
+  transition: all .25s;
+  position: absolute;
+  left: 60px;
+  transform: translateX(-8px);
+  box-shadow: 0 4px 12px #0000004d;
+}
+
+.BackToTop-module__VQI20W__backToTop:hover .BackToTop-module__VQI20W__tooltip {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+  .BackToTop-module__VQI20W__backToTop {
+    width: 44px;
+    height: 44px;
+    bottom: 20px;
+    left: 16px;
+  }
+
+  .BackToTop-module__VQI20W__tooltip {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_components_BackToTop_BackToTop_module_css_1igg3k2._.single.css.map*/

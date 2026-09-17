@@ -259,8 +259,8 @@ export default function BeritaClient({
       {/* ===== ARTIKEL & WARTA KAMPUS DENGAN SIDEBAR & SEARCH ===== */}
       <section className="section" id="koleksi-berita" style={{ background: '#F8FAFC', paddingTop: '3.5rem' }}>
         <div className="container">
-          
-          {/* ── TOP SEARCH & TOOLBAR BAR ── */}
+
+          {/* ── TOP SEARCH BAR ── */}
           <div className={styles.searchToolbarCard}>
             <div className={styles.searchBarWrapper}>
               <div className={styles.searchIconWrapper}>
@@ -272,7 +272,7 @@ export default function BeritaClient({
               <input
                 type="text"
                 className={styles.searchInput}
-                placeholder="Cari artikel, topik bahasan, pengumuman, atau kata kunci..."
+                placeholder="Cari artikel, pengumuman, atau kata kunci..."
                 value={searchQuery}
                 onChange={handleSearchChange}
               />
@@ -289,12 +289,6 @@ export default function BeritaClient({
                   </svg>
                 </button>
               )}
-            </div>
-
-            <div className={styles.toolbarCounter}>
-              <span className={styles.counterBadge}>
-                <strong>{filteredArticles.length}</strong> Warta Ditemukan
-              </span>
             </div>
           </div>
 
@@ -349,7 +343,7 @@ export default function BeritaClient({
 
           {/* ── TWO-COLUMN EDITORIAL LAYOUT ── */}
           <div className={styles.editorialLayout}>
-            
+
             {/* ── COLUMN 1: MAIN ARTICLE STREAM ── */}
             <main className={styles.mainStream}>
               {filteredArticles.length === 0 ? (
@@ -502,9 +496,8 @@ export default function BeritaClient({
                               key={pageNum}
                               type="button"
                               onClick={() => handlePageChange(pageNum)}
-                              className={`${styles.pageNumberBtn} ${
-                                currentPage === pageNum ? styles.pageNumberActive : ''
-                              }`}
+                              className={`${styles.pageNumberBtn} ${currentPage === pageNum ? styles.pageNumberActive : ''
+                                }`}
                             >
                               {pageNum}
                             </button>
@@ -516,9 +509,8 @@ export default function BeritaClient({
                           type="button"
                           onClick={() => handlePageChange(currentPage + 1)}
                           disabled={currentPage === totalPages}
-                          className={`${styles.pageNavBtn} ${
-                            currentPage === totalPages ? styles.pageNavDisabled : ''
-                          }`}
+                          className={`${styles.pageNavBtn} ${currentPage === totalPages ? styles.pageNavDisabled : ''
+                            }`}
                           title="Halaman Selanjutnya"
                         >
                           <span>Selanjutnya</span>
@@ -535,7 +527,7 @@ export default function BeritaClient({
 
             {/* ── COLUMN 2: SIDEBAR KATEGORI & WIDGETS ── */}
             <aside className={styles.beritaSidebar}>
-              
+
               {/* WIDGET 1: SIDEBAR KATEGORI */}
               <div className={styles.sidebarWidget}>
                 <div className={styles.widgetHeader}>
@@ -550,9 +542,8 @@ export default function BeritaClient({
                   <button
                     type="button"
                     onClick={() => handleCategoryClick('semua')}
-                    className={`${styles.categoryMenuItem} ${
-                      activeCategory === 'semua' ? styles.categoryMenuItemActive : ''
-                    }`}
+                    className={`${styles.categoryMenuItem} ${activeCategory === 'semua' ? styles.categoryMenuItemActive : ''
+                      }`}
                   >
                     <div className={styles.catLeftWrap}>
                       <span className={styles.catDot} />
@@ -571,9 +562,8 @@ export default function BeritaClient({
                         key={cat.id || cat.slug || idx}
                         type="button"
                         onClick={() => handleCategoryClick(cat.slug || cat.name)}
-                        className={`${styles.categoryMenuItem} ${
-                          isActive ? styles.categoryMenuItemActive : ''
-                        }`}
+                        className={`${styles.categoryMenuItem} ${isActive ? styles.categoryMenuItemActive : ''
+                          }`}
                       >
                         <div className={styles.catLeftWrap}>
                           <span className={styles.catDot} />

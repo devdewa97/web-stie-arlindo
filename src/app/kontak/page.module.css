@@ -232,6 +232,7 @@
   padding: 4.5rem 0 5.5rem;
   border-top: 1px solid var(--gray-200);
   border-bottom: 1px solid var(--gray-200);
+  scroll-margin-top: calc(var(--navbar-height, 80px) + 1.25rem);
 }
 
 .splitGrid {
@@ -434,6 +435,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  scroll-margin-top: calc(var(--navbar-height, 80px) + 1.5rem);
 }
 
 .mapCard {
@@ -448,26 +450,45 @@
 }
 
 .mapHeader {
-  padding: 2rem 2.25rem 1.25rem;
+  padding: 1.75rem 2rem 1.25rem;
+  background: var(--white);
 }
 
 .mapTitle {
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   font-weight: 800;
   color: var(--navy-900);
-  margin-bottom: 0.35rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.45rem;
+  line-height: 1.3;
+}
+
+.mapAddressBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0;
+}
+
+.mapPinIcon {
+  color: var(--gold-600);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
 }
 
 .mapAddress {
   font-size: 0.88rem;
   color: var(--gray-600);
-  line-height: 1.5;
+  line-height: 1.55;
+  margin: 0;
 }
 
+/* MAP CONTAINER - STRICT BOUNDS */
 .mapFrameContainer {
   position: relative;
   width: 100%;
-  height: 290px;
+  height: 280px;
+  overflow: hidden;
   border-top: 1px solid var(--gray-200);
   border-bottom: 1px solid var(--gray-200);
   background: var(--gray-100);
@@ -475,90 +496,136 @@
 
 .mapFrameContainer iframe {
   display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
-.mapOverlayPill {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: rgba(10, 22, 40, 0.85);
-  backdrop-filter: blur(8px);
-  color: var(--white);
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.4rem 0.85rem;
-  border-radius: var(--radius-full);
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.onlineDot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #10B981;
-  box-shadow: 0 0 8px #10B981;
-}
-
+/* TRANSIT GUIDE */
 .transitGuide {
-  padding: 1.75rem 2.25rem;
+  padding: 1.75rem 2rem 2rem;
   background: var(--white);
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.transitHeaderRow {
+  margin-bottom: 1.25rem;
 }
 
 .transitTitle {
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 800;
   color: var(--navy-900);
-  margin-bottom: 1.15rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.35;
+}
+
+.transitSubtitle {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+  display: block;
 }
 
 .transitList {
   display: flex;
   flex-direction: column;
-  gap: 0.95rem;
+  gap: 0.85rem;
   margin-bottom: 1.5rem;
 }
 
-.transitItem {
+.transitCard {
   display: flex;
   align-items: flex-start;
   gap: 0.85rem;
+  padding: 0.85rem 1rem;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-fast);
 }
 
-.transitIcon {
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
+.transitCard:hover {
   background: var(--navy-50);
+  border-color: var(--navy-200);
+}
+
+.transitIconBox {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: var(--white);
   color: var(--navy-700);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  border: 1px solid var(--gray-200);
+  box-shadow: 0 2px 5px rgba(10, 22, 40, 0.04);
 }
 
-.transitText {
-  font-size: 0.85rem;
+.transitCard:hover .transitIconBox {
+  color: var(--gold-600);
+  border-color: var(--gold-300);
+}
+
+.transitContent {
+  flex: 1;
+}
+
+.transitLabel {
+  display: block;
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin-bottom: 0.2rem;
+}
+
+.transitDesc {
+  font-size: 0.83rem;
   color: var(--gray-600);
   line-height: 1.5;
+  margin: 0;
 }
 
-.transitText strong {
-  display: block;
-  color: var(--navy-900);
-  font-weight: 700;
-  margin-bottom: 0.15rem;
-}
-
+/* MAP BUTTON ROW */
 .mapButtonRow {
   margin-top: auto;
   padding-top: 0.5rem;
+}
+
+.mapNavigateBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+  background: linear-gradient(135deg, var(--navy-900) 0%, var(--navy-800) 100%);
+  color: var(--gold-400) !important;
+  font-size: 0.92rem;
+  font-weight: 700;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gold-500);
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(10, 22, 40, 0.15);
+  transition: all var(--transition-base);
+}
+
+.mapNavigateBtn:hover {
+  background: linear-gradient(135deg, var(--navy-950) 0%, var(--navy-900) 100%);
+  color: var(--gold-300) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(10, 22, 40, 0.25);
+}
+
+.btnArrow {
+  transition: transform var(--transition-fast);
+}
+
+.mapNavigateBtn:hover .btnArrow {
+  transform: translateX(4px);
 }
 
 /* ===== DIREKTORI LAYANAN DEPARTEMEN - UNIFORM GRID ===== */
@@ -952,32 +1019,62 @@
   }
 
   .mapHeader {
-    padding: 1.5rem 1.25rem 1rem;
+    padding: 1.25rem 1.15rem 1rem;
   }
 
-  .transitGuide {
-    padding: 1.25rem;
+  .mapTitle {
+    font-size: 1.25rem;
   }
 
-  .formTitle {
-    font-size: 1.5rem;
+  .mapAddressBox {
+    margin-bottom: 0;
   }
 
-  .formCard {
-    padding: 1.5rem 1.15rem;
-  }
-
-  .formDesc {
-    font-size: 0.86rem;
-  }
-
-  .submitBtn {
-    font-size: 0.95rem;
-    padding: 0.85rem 1.25rem;
+  .mapAddress {
+    font-size: 0.82rem;
   }
 
   .mapFrameContainer {
-    height: 220px;
+    height: 240px;
+  }
+
+  .transitGuide {
+    padding: 1.25rem 1.15rem 1.35rem;
+  }
+
+  .transitHeaderRow {
+    margin-bottom: 1rem;
+  }
+
+  .transitTitle {
+    font-size: 0.98rem;
+  }
+
+  .transitSubtitle {
+    font-size: 0.75rem;
+  }
+
+  .transitCard {
+    padding: 0.75rem 0.85rem;
+    gap: 0.65rem;
+  }
+
+  .transitIconBox {
+    width: 34px;
+    height: 34px;
+  }
+
+  .transitLabel {
+    font-size: 0.82rem;
+  }
+
+  .transitDesc {
+    font-size: 0.78rem;
+  }
+
+  .mapNavigateBtn {
+    font-size: 0.86rem;
+    padding: 0.8rem 1rem;
   }
 
   .departmentCard {

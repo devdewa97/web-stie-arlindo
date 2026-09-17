@@ -538,12 +538,20 @@ export default function KontakClient() {
             <ScrollReveal delay={150}>
               <div className={styles.locationWrapper} id="lokasi-kampus">
                 <div className={styles.mapCard}>
+                  {/* Header Info */}
                   <div className={styles.mapHeader}>
                     <span className={styles.sectionBadge}>Peta &amp; Akses Kampus</span>
                     <h3 className={styles.mapTitle}>Kampus Terpadu STIE ARLINDO</h3>
-                    <p className={styles.mapAddress}>
-                      Jl. Lurah Namat, RT.002/RW.003, Jatirangga, Kec. Jatisampurna, Kota Bekasi, Jawa Barat 17434
-                    </p>
+
+                    <div className={styles.mapAddressBox}>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={styles.mapPinIcon}>
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <p className={styles.mapAddress}>
+                        {settings?.address || 'Jl. Lurah Namat, RT.002/RW.003, Jatirangga, Kec. Jatisampurna, Kota Bekasi, Jawa Barat 17434'}
+                      </p>
+                    </div>
                   </div>
 
                   {/* Google Maps Iframe */}
@@ -551,41 +559,43 @@ export default function KontakClient() {
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6732.551679795086!2d106.93311387683758!3d-6.370253793619937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6993431a2a976d%3A0xa805a3f4979a35a9!2sSTIE%20ARLINDO!5e1!3m2!1sid!2sid!4v1788762410060!5m2!1sid!2sid"
                       width="100%"
-                      height="300"
+                      height="100%"
                       style={{ border: 0 }}
                       allowFullScreen=""
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
                       title="Peta Lokasi Kampus STIE ARLINDO"
                     />
-                    <div className={styles.mapOverlayPill}>
-                      <span className={styles.onlineDot} />
-                      <span>Kampus Buka Hari Ini</span>
-                    </div>
                   </div>
 
                   {/* Campus Directions & Transit Highlights */}
                   <div className={styles.transitGuide}>
-                    <h4 className={styles.transitTitle}>Aksesibilitas &amp; Petunjuk Rute:</h4>
+                    <div className={styles.transitHeaderRow}>
+                      <h4 className={styles.transitTitle}>Aksesibilitas &amp; Petunjuk Rute:</h4>
+                      <span className={styles.transitSubtitle}>Mudah dijangkau dengan kendaraan pribadi maupun transportasi umum</span>
+                    </div>
+
                     <div className={styles.transitList}>
-                      <div className={styles.transitItem}>
-                        <div className={styles.transitIcon}>
-                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <div className={styles.transitCard}>
+                        <div className={styles.transitIconBox}>
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <rect x="1" y="3" width="15" height="13" />
                             <polygon points="16 8 20 8 23 11 23 16 16 16 8" />
                             <circle cx="5.5" cy="18.5" r="2.5" />
                             <circle cx="18.5" cy="18.5" r="2.5" />
                           </svg>
                         </div>
-                        <div className={styles.transitText}>
-                          <strong>Akses Jalan Tol:</strong>
-                          <span>10-15 menit dari Gerbang Tol Jatikarya (Tol Cimanggis–Cibitung) atau Exit Tol Cibubur.</span>
+                        <div className={styles.transitContent}>
+                          <strong className={styles.transitLabel}>Akses Jalan Tol:</strong>
+                          <p className={styles.transitDesc}>
+                            10–15 menit dari Gerbang Tol Jatikarya (Tol Cimanggis–Cibitung) atau Exit Tol Cibubur.
+                          </p>
                         </div>
                       </div>
 
-                      <div className={styles.transitItem}>
-                        <div className={styles.transitIcon}>
-                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <div className={styles.transitCard}>
+                        <div className={styles.transitIconBox}>
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <rect x="4" y="3" width="16" height="16" rx="2" />
                             <path d="M4 11h16" />
                             <path d="M12 3v8" />
@@ -593,37 +603,44 @@ export default function KontakClient() {
                             <path d="m16 19 2 3" />
                           </svg>
                         </div>
-                        <div className={styles.transitText}>
-                          <strong>Transportasi Publik:</strong>
-                          <span>Dekat stasiun LRT Harjamukti Cibubur, halte Transjakarta Cibubur Junction, dan angkutan Kranggan.</span>
+                        <div className={styles.transitContent}>
+                          <strong className={styles.transitLabel}>Transportasi Publik:</strong>
+                          <p className={styles.transitDesc}>
+                            Dekat stasiun LRT Harjamukti Cibubur, halte Transjakarta Cibubur Junction, dan angkutan Kranggan.
+                          </p>
                         </div>
                       </div>
 
-                      <div className={styles.transitItem}>
-                        <div className={styles.transitIcon}>
-                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <div className={styles.transitCard}>
+                        <div className={styles.transitIconBox}>
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            <polyline points="9 12 11 14 15 10" />
                           </svg>
                         </div>
-                        <div className={styles.transitText}>
-                          <strong>Fasilitas Kampus:</strong>
-                          <span>Area parkir mobil/motor tertata aman, ruang kuliah ber-AC, perpustakaan, dan masjid kampus.</span>
+                        <div className={styles.transitContent}>
+                          <strong className={styles.transitLabel}>Fasilitas Kampus:</strong>
+                          <p className={styles.transitDesc}>
+                            Area parkir mobil/motor tertata aman, ruang kuliah ber-AC, perpustakaan, dan masjid kampus.
+                          </p>
                         </div>
                       </div>
                     </div>
 
                     <div className={styles.mapButtonRow}>
                       <a
-                        href="https://maps.google.com/?q=Jl.+Lurah+Namat+Jatisampurna+Bekasi"
+                        href="https://maps.app.goo.gl/E8MVxoSPdFWLw8Nm7"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-outline"
-                        style={{ width: '100%', justifyContent: 'center' }}
+                        className={styles.mapNavigateBtn}
                       >
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <polygon points="3 11 22 2 13 21 11 13 3 11" />
                         </svg>
                         <span>Buka Navigasi Rute di Google Maps</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={styles.btnArrow}>
+                          <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
                       </a>
                     </div>
                   </div>
