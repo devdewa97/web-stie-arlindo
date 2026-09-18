@@ -171,7 +171,7 @@ const contactFaqs = [
   },
   {
     q: 'Bagaimana cara menghubungi bagian administrasi bila berhalangan hadir langsung?',
-    a: 'Anda dapat menghubungi hotline WhatsApp Admisi di 0812-9000-8899, atau mengirimkan email resmi ke info@arlindo.ac.id. Kami juga melayani sesi konsultasi daring berbasis janji temu.',
+    a: 'Anda dapat menghubungi hotline WhatsApp Admin di 0812-9000-8899, atau mengirimkan email resmi ke info@arlindo.ac.id. Kami juga melayani sesi konsultasi daring berbasis janji temu.',
   },
   {
     q: 'Bagaimana prosedur pengajuan kerjasama institusi, magang, atau rekrutmen kerja?',
@@ -288,7 +288,7 @@ export default function KontakClient() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
                 </svg>
-                <span>WhatsApp Admisi</span>
+                <span>WhatsApp Admin</span>
               </a>
               <a href="#lokasi-kampus" className="btn btn-outline">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

@@ -365,7 +365,7 @@ var _s = __turbopack_context__.k.signature();
     },
     {
         q: 'Bagaimana cara menghubungi bagian administrasi bila berhalangan hadir langsung?',
-        a: 'Anda dapat menghubungi hotline WhatsApp Admisi di 0812-9000-8899, atau mengirimkan email resmi ke info@arlindo.ac.id. Kami juga melayani sesi konsultasi daring berbasis janji temu.'
+        a: 'Anda dapat menghubungi hotline WhatsApp Admin di 0812-9000-8899, atau mengirimkan email resmi ke info@arlindo.ac.id. Kami juga melayani sesi konsultasi daring berbasis janji temu.'
     },
     {
         q: 'Bagaimana prosedur pengajuan kerjasama institusi, magang, atau rekrutmen kerja?',
@@ -584,7 +584,7 @@ function KontakClient() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "WhatsApp Admisi"
+                                                    children: "WhatsApp Admin"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/kontak/KontakClient.js",
                                                     lineNumber: 291,
