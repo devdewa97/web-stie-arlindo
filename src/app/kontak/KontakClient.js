@@ -108,7 +108,7 @@ function getSocialChannels(settings, waNumber) {
     {
       name: 'Instagram Resmi',
       handle: '@stiearlindo',
-      desc: 'Galeri kegiatan, seminar, info PMB & warta kampus terkini',
+      desc: 'Galeri kegiatan, seminar, info PMB & berita kampus terkini',
       href: settings?.instagram || 'https://instagram.com/stiearlindo',
       color: '#E1306C',
       icon: (

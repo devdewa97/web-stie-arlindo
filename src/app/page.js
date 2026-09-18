@@ -270,7 +270,7 @@ export default function HomePage() {
             id: item.id,
             title: item.title,
             excerpt: item.excerpt || (item.content ? item.content.replace(/<[^>]*>?/gm, '').slice(0, 160) + '...' : ''),
-            category: item.category_rel ? item.category_rel.name : (item.category ? item.category.toUpperCase() : 'Warta Kampus'),
+            category: item.category_rel ? item.category_rel.name : (item.category ? item.category.toUpperCase() : 'Berita Kampus'),
             date: item.published_at
               ? new Date(item.published_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })
               : item.created_at

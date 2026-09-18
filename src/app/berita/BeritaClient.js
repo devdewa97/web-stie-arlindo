@@ -256,8 +256,8 @@ export default function BeritaClient({
         </div>
       </section>
 
-      {/* ===== ARTIKEL & WARTA KAMPUS DENGAN SIDEBAR & SEARCH ===== */}
-      <section className="section" id="koleksi-berita" style={{ background: '#F8FAFC', paddingTop: '3.5rem' }}>
+      {/* ===== ARTIKEL & BERITA KAMPUS DENGAN SIDEBAR & SEARCH ===== */}
+      <section className={styles.newsSection} id="koleksi-berita" style={{ background: '#F8FAFC', paddingTop: '3.5rem' }}>
         <div className="container">
 
           {/* ── TOP SEARCH BAR ── */}

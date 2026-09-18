@@ -34,7 +34,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
         name: 'Media Arlindo',
         role: 'Biro Media, Komunikasi & Publikasi Resmi STIE ARLINDO',
         tag: 'PENULIS RESMI',
-        bio: 'Dikelola secara profesional oleh tim redaksi Media Arlindo untuk menyajikan warta resmi, riset keilmuan manajemen, prestasi mahasiswa, dan transparansi kegiatan akademik civitas kampus secara akurat dan terpercaya.',
+        bio: 'Dikelola secara profesional oleh tim redaksi Media Arlindo untuk menyajikan berita resmi, riset keilmuan manajemen, prestasi mahasiswa, dan transparansi kegiatan akademik civitas kampus secara akurat dan terpercaya.',
         avatar: '/images/logo-emblem.png',
         verified: true,
         instansi: 'STIE ARLINDO',
@@ -297,7 +297,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$berita$2f5b$slug$5d2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].breadcrumbCurrent,
-                                            children: article.category || 'Warta Kampus'
+                                            children: article.category || 'Berita Kampus'
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/berita/[slug]/BeritaDetailClient.js",
                                             lineNumber: 197,
@@ -656,7 +656,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$berita$2f5b$slug$5d2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].bottomShareDesc,
-                                                        children: "Bagikan warta ini kepada rekan, keluarga, atau jejaring Anda."
+                                                        children: "Bagikan berita ini kepada rekan, keluarga, atau jejaring Anda."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/berita/[slug]/BeritaDetailClient.js",
                                                         lineNumber: 290,
@@ -897,7 +897,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$berita$2f5b$slug$5d2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].authorActionBtn,
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "Arsip Warta Redaksi"
+                                                                children: "Arsip Berita Redaksi"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/berita/[slug]/BeritaDetailClient.js",
                                                                 lineNumber: 363,
@@ -1331,7 +1331,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                                         id: "commentText",
                                                                         rows: 4,
-                                                                        placeholder: "Tuliskan apresiasi, pandangan, atau pertanyaan Anda terkait warta ini...",
+                                                                        placeholder: "Tuliskan apresiasi, pandangan, atau pertanyaan Anda terkait berita ini...",
                                                                         value: commentForm.comment,
                                                                         onChange: (e)=>setCommentForm({
                                                                                 ...commentForm,
@@ -1749,7 +1749,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                children: "Belum ada komentar untuk warta ini. Jadilah yang pertama memberikan tanggapan!"
+                                                                children: "Belum ada komentar untuk berita ini. Jadilah yang pertama memberikan tanggapan!"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/berita/[slug]/BeritaDetailClient.js",
                                                                 lineNumber: 572,
@@ -1801,7 +1801,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$berita$2f5b$slug$5d2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].widgetSubtitle,
-                                                                children: "Temukan warta sesuai topik"
+                                                                children: "Temukan berita sesuai topik"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/berita/[slug]/BeritaDetailClient.js",
                                                                 lineNumber: 587,
@@ -1941,7 +1941,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$berita$2f5b$slug$5d2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].recentCat,
-                                                                            children: item.category || 'Warta'
+                                                                            children: item.category || 'berita'
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/berita/[slug]/BeritaDetailClient.js",
                                                                             lineNumber: 643,
@@ -2095,7 +2095,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$berita$2f5b$slug$5d2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionBadge,
-                                                children: "Rekomendasi Warta"
+                                                children: "Rekomendasi berita"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/berita/[slug]/BeritaDetailClient.js",
                                                 lineNumber: 688,
@@ -2361,7 +2361,7 @@ function BeritaDetailClient({ article, relatedArticles = [], categories = [], re
         columnNumber: 5
     }, this);
 }
-_s(BeritaDetailClient, "L6GZrpxDuimR+WJSJ/v1gIc143M=");
+_s(BeritaDetailClient, "1Z+J8HpJzZ9szsNdD9YeFsiTh6w=");
 _c = BeritaDetailClient;
 var _c;
 __turbopack_context__.k.register(_c, "BeritaDetailClient");

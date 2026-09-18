@@ -528,14 +528,14 @@
   position: relative;
   width: 76px;
   height: 76px;
-  border-radius: 50%;
+  border-radius: 10px;
   background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 8px 24px rgba(212, 168, 67, 0.35);
   flex-shrink: 0;
-  border: 2.5px solid var(--gold-400);
+  border: 2px solid var(--gold-400);
   padding: 6px;
 }
 
@@ -547,10 +547,10 @@
 
 .verifiedCheckmark {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 22px;
-  height: 22px;
+  bottom: -4px;
+  right: -4px;
+  width: 20px;
+  height: 20px;
   background: #3B82F6;
   color: #FFFFFF;
   border-radius: 50%;
@@ -673,7 +673,7 @@
 .authorAvatarImgLarge {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 6px;
   object-fit: contain;
 }
 
@@ -1710,36 +1710,113 @@
   }
 
   .authorProfileCard {
-    padding: 1.75rem;
+    padding: 1.65rem 1.4rem;
+    border-radius: 20px;
   }
 
   .authorCardTop {
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .authorAvatarLarge {
+    width: 64px;
+    height: 64px;
+    border-radius: 9px;
+    padding: 4px;
+    flex-shrink: 0;
+  }
+
+  .authorInfo {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .authorHeaderLine {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+    flex-wrap: wrap;
+  }
+
+  .authorCardRole {
+    font-size: 0.72rem;
+    letter-spacing: 0.5px;
+  }
+
+  .authorStatusBadge {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
   }
 
   .authorCardName {
-    font-size: 1.15rem;
+    font-size: 1.18rem;
+    font-weight: 800;
+    line-height: 1.3;
+  }
+
+  .authorCardTitle {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.72);
+    margin-top: 0.15rem;
   }
 
   .authorCardBio {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
+    line-height: 1.68;
+    color: rgba(232, 237, 245, 0.88);
+    margin-bottom: 1.35rem;
   }
 
   .authorCardFooter {
     flex-direction: column;
     align-items: stretch;
     gap: 1rem;
+    padding-top: 1.15rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .authorStats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
     width: 100%;
-    justify-content: space-between;
+  }
+
+  .statItem {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0.65rem 0.85rem;
+    border-radius: 12px;
+  }
+
+  .statVal {
+    font-size: 0.88rem;
+    font-weight: 800;
+    color: var(--gold-300);
+    display: block;
+    line-height: 1.3;
+  }
+
+  .statLbl {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    margin-top: 2px;
   }
 
   .authorActionBtn {
     width: 100%;
     justify-content: center;
+    padding: 0.8rem 1.25rem;
+    font-size: 0.88rem;
+    border-radius: 12px;
+    font-weight: 700;
   }
 
   .relatedSection {
@@ -1897,31 +1974,62 @@
 
   .authorProfileCard {
     padding: 1.35rem 1.15rem;
+    border-radius: 18px;
+  }
+
+  .authorCardTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.85rem;
+    margin-bottom: 1rem;
   }
 
   .authorAvatarLarge {
-    width: 58px;
-    height: 58px;
+    width: 54px;
+    height: 54px;
+    border-radius: 8px;
+    padding: 3px;
+    flex-shrink: 0;
   }
 
   .authorAvatarInitials {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
   }
 
   .authorCardName {
     font-size: 1.05rem;
+    line-height: 1.25;
+  }
+
+  .authorCardTitle {
+    font-size: 0.76rem;
+    line-height: 1.35;
   }
 
   .authorCardBio {
-    font-size: 0.86rem;
+    font-size: 0.85rem;
+    line-height: 1.62;
+    margin-bottom: 1.15rem;
   }
 
   .authorStats {
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+  }
+
+  .statItem {
+    padding: 0.55rem 0.7rem;
+    border-radius: 10px;
   }
 
   .statVal {
-    font-size: 0.88rem;
+    font-size: 0.84rem;
+  }
+
+  .statLbl {
+    font-size: 0.68rem;
   }
 
   .relatedSection {

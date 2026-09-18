@@ -5,7 +5,7 @@ import { getNewsSafe, getCategories } from '@/lib/api';
 export const metadata = {
   title: 'Berita & Pengumuman Resmi | STIE ARLINDO',
   description:
-    'Warta kegiatan akademik, prestasi mahasiswa, seminar nasional, kemitraan industri, dan informasi resmi dari Sekolah Tinggi Ilmu Ekonomi (STIE) ARLINDO.',
+    'Berita kegiatan akademik, prestasi mahasiswa, seminar nasional, kemitraan industri, dan informasi resmi dari Sekolah Tinggi Ilmu Ekonomi (STIE) ARLINDO.',
   keywords: [
     'Berita STIE ARLINDO',
     'Pengumuman STIE Arlindo',
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: 'Berita & Pengumuman Resmi — STIE ARLINDO',
     description:
-      'Warta kegiatan akademik, prestasi mahasiswa, seminar nasional, kemitraan industri, dan informasi resmi STIE ARLINDO.',
+      'Berita kegiatan akademik, prestasi mahasiswa, seminar nasional, kemitraan industri, dan informasi resmi STIE ARLINDO.',
     url: 'https://arlindo.ac.id/berita',
     type: 'website',
     images: [
@@ -35,7 +35,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Berita & Pengumuman Resmi — STIE ARLINDO',
     description:
-      'Warta kegiatan akademik, prestasi mahasiswa, seminar nasional, kemitraan industri, dan informasi resmi STIE ARLINDO.',
+      'Berita kegiatan akademik, prestasi mahasiswa, seminar nasional, kemitraan industri, dan informasi resmi STIE ARLINDO.',
     images: ['/images/hero-bg.png'],
   },
 };

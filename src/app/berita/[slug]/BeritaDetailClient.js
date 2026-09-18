@@ -19,7 +19,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
     name: 'Media Arlindo',
     role: 'Biro Media, Komunikasi & Publikasi Resmi STIE ARLINDO',
     tag: 'PENULIS RESMI',
-    bio: 'Dikelola secara profesional oleh tim redaksi Media Arlindo untuk menyajikan warta resmi, riset keilmuan manajemen, prestasi mahasiswa, dan transparansi kegiatan akademik civitas kampus secara akurat dan terpercaya.',
+    bio: 'Dikelola secara profesional oleh tim redaksi Media Arlindo untuk menyajikan berita resmi, riset keilmuan manajemen, prestasi mahasiswa, dan transparansi kegiatan akademik civitas kampus secara akurat dan terpercaya.',
     avatar: '/images/logo-emblem.png',
     verified: true,
     instansi: 'STIE ARLINDO',
@@ -194,7 +194,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
               <span className={styles.breadcrumbSeparator}>/</span>
               <Link href="/berita">Berita &amp; Artikel</Link>
               <span className={styles.breadcrumbSeparator}>/</span>
-              <span className={styles.breadcrumbCurrent}>{article.category || 'Warta Kampus'}</span>
+              <span className={styles.breadcrumbCurrent}>{article.category || 'Berita Kampus'}</span>
             </div>
 
             {/* Category & Verified Badge */}
@@ -287,7 +287,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
               <div className={styles.articleBottomShare}>
                 <div className={styles.bottomShareLeft}>
                   <div className={styles.bottomShareTitle}>Apakah informasi ini bermanfaat?</div>
-                  <div className={styles.bottomShareDesc}>Bagikan warta ini kepada rekan, keluarga, atau jejaring Anda.</div>
+                  <div className={styles.bottomShareDesc}>Bagikan berita ini kepada rekan, keluarga, atau jejaring Anda.</div>
                 </div>
                 <div className={styles.bottomShareButtons}>
                   <a
@@ -360,7 +360,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
                   </div>
 
                   <Link href="/berita" className={styles.authorActionBtn}>
-                    <span>Arsip Warta Redaksi</span>
+                    <span>Arsip Berita Redaksi</span>
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <line x1="5" y1="12" x2="19" y2="12" />
                       <polyline points="12 5 19 12 12 19" />
@@ -465,7 +465,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
                       <textarea
                         id="commentText"
                         rows={4}
-                        placeholder="Tuliskan apresiasi, pandangan, atau pertanyaan Anda terkait warta ini..."
+                        placeholder="Tuliskan apresiasi, pandangan, atau pertanyaan Anda terkait berita ini..."
                         value={commentForm.comment}
                         onChange={(e) => setCommentForm({ ...commentForm, comment: e.target.value })}
                         required
@@ -569,7 +569,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
                       <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                       </svg>
-                      <p>Belum ada komentar untuk warta ini. Jadilah yang pertama memberikan tanggapan!</p>
+                      <p>Belum ada komentar untuk berita ini. Jadilah yang pertama memberikan tanggapan!</p>
                     </div>
                   )}
                 </div>
@@ -584,7 +584,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
                   <div className={styles.widgetHeader}>
                     <div>
                       <h4 className={styles.widgetTitle}>Kategori Artikel</h4>
-                      <p className={styles.widgetSubtitle}>Temukan warta sesuai topik</p>
+                      <p className={styles.widgetSubtitle}>Temukan berita sesuai topik</p>
                     </div>
                   </div>
 
@@ -640,7 +640,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
                             </div>
                           )}
                           <div className={styles.recentBody}>
-                            <span className={styles.recentCat}>{item.category || 'Warta'}</span>
+                            <span className={styles.recentCat}>{item.category || 'berita'}</span>
                             <h5 className={styles.recentTitle}>{item.title}</h5>
                             <span className={styles.recentDate}>{item.date}</span>
                           </div>
@@ -685,7 +685,7 @@ export default function BeritaDetailClient({ article, relatedArticles = [], cate
             <ScrollReveal>
               <div className={styles.relatedHeader}>
                 <div>
-                  <span className={styles.sectionBadge}>Rekomendasi Warta</span>
+                  <span className={styles.sectionBadge}>Rekomendasi berita</span>
                   <h2 className={styles.relatedTitle}>Artikel &amp; Berita Terkait Lainnya</h2>
                   <p className={styles.relatedSubtitle}>
                     Eksplorasi wawasan akademik, inovasi riset manajemen, dan agenda terkini civitas STIE ARLINDO.

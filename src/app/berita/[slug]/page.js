@@ -272,14 +272,14 @@ export default async function BeritaDetailPage({ params }) {
   let article = newsDatabase[slug] || {
     slug,
     title: slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
-    category: 'Warta Kampus',
+    category: 'Berita Kampus',
     categorySlug: 'umum',
     date: 'Terkini 2026',
     readTime: '3 Menit Baca',
     author: 'Tim Redaksi & Humas STIE ARLINDO',
     authorRole: 'Biro Komunikasi Publik & Media Akademik',
     authorBio:
-      'Dikelola oleh Biro Humas & Publikasi STIE ARLINDO untuk menyajikan warta resmi, riset keilmuan, dan aktivitas akademik civitas kampus.',
+      'Dikelola oleh Biro Humas & Publikasi STIE ARLINDO untuk menyajikan berita resmi, riset keilmuan, dan aktivitas akademik civitas kampus.',
     image: '/images/news-pmb.jpg',
     excerpt: 'Simak ulasan lengkap seputar kabar akademik dan kegiatan terbaru dari STIE ARLINDO.',
     takeaways: [
@@ -310,8 +310,8 @@ export default async function BeritaDetailPage({ params }) {
           date: apiData.published_at
             ? new Date(apiData.published_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })
             : apiData.created_at
-            ? new Date(apiData.created_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })
-            : article.date,
+              ? new Date(apiData.created_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })
+              : article.date,
           content: apiData.content || article.content,
           excerpt: apiData.excerpt || article.excerpt,
           author: apiData.author || article.author,
