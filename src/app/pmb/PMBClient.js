@@ -114,19 +114,16 @@ const admissionTrackOptions = [
   {
     value: 'Reguler',
     title: 'Jalur Reguler',
-    badge: 'Gelombang 1',
     desc: 'Bagi lulusan SMA/SMK/MA sederajat. Potongan DPP awal & skema cicilan SPP bulanan terjangkau.',
   },
   {
     value: 'Beasiswa',
     title: 'Jalur Beasiswa',
-    badge: 'Bantuan UKT',
     desc: 'Bagi siswa berprestasi akademik/non-akademik atau pemegang kartu KIP-Kuliah Kemendikbudristek.',
   },
   {
     value: 'Kelas Karyawan',
     title: 'Jalur Kelas Karyawan',
-    badge: 'Waktu Fleksibel',
     desc: 'Bagi pekerja atau profesional dengan waktu kuliah malam atau akhir pekan didukung materi e-learning.',
   },
 ];
@@ -327,7 +324,7 @@ export default function PMBClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Pilihan Jalur Pendaftaran</span>
+
               <h2 className={styles.sectionTitle}>Pilih Jalur Masuk yang Sesuai dengan Anda</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
@@ -419,7 +416,7 @@ export default function PMBClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Tahapan Pendaftaran</span>
+
               <h2 className={styles.sectionTitle}>Alur Registrasi Calon Mahasiswa Baru</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
@@ -452,7 +449,7 @@ export default function PMBClient() {
             {/* Persyaratan Dokumen */}
             <ScrollReveal>
               <div className={styles.reqCardWrapper}>
-                <span className={styles.tagLabel}>Kelengkapan Berkas</span>
+
                 <h3 className={styles.subSectionTitle}>Dokumen Persyaratan Administrasi</h3>
                 <div className="gold-line-left" />
                 <p className={styles.subSectionDesc}>
@@ -564,7 +561,7 @@ export default function PMBClient() {
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
                   </svg>
-                  <span>Chat WhatsApp Admisi PMB</span>
+                  <span>Chat WhatsApp Admin PMB</span>
                 </a>
               </div>
             </ScrollReveal>
@@ -577,7 +574,7 @@ export default function PMBClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Registrasi Calon Mahasiswa</span>
+
               <h2 className={styles.sectionTitle}>Formulir Pendaftaran Online S1 Manajemen</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
@@ -857,7 +854,6 @@ export default function PMBClient() {
                           <div className={styles.trackRadioContent}>
                             <div className={styles.trackRadioHeader}>
                               <span className={styles.trackRadioTitle}>{opt.title}</span>
-                              <span className={styles.trackRadioBadge}>{opt.badge}</span>
                             </div>
                             <p className={styles.trackRadioDesc}>{opt.desc}</p>
                           </div>
@@ -904,7 +900,7 @@ export default function PMBClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Tanya Jawab Seputar PMB</span>
+
               <h2 className={styles.sectionTitle}>Pertanyaan yang Sering Diajukan</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>

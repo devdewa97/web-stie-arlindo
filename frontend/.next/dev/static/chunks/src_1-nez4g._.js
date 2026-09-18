@@ -225,19 +225,16 @@ var _s = __turbopack_context__.k.signature();
     {
         value: 'Reguler',
         title: 'Jalur Reguler',
-        badge: 'Gelombang 1',
         desc: 'Bagi lulusan SMA/SMK/MA sederajat. Potongan DPP awal & skema cicilan SPP bulanan terjangkau.'
     },
     {
         value: 'Beasiswa',
         title: 'Jalur Beasiswa',
-        badge: 'Bantuan UKT',
         desc: 'Bagi siswa berprestasi akademik/non-akademik atau pemegang kartu KIP-Kuliah Kemendikbudristek.'
     },
     {
         value: 'Kelas Karyawan',
         title: 'Jalur Kelas Karyawan',
-        badge: 'Waktu Fleksibel',
         desc: 'Bagi pekerja atau profesional dengan waktu kuliah malam atau akhir pekan didukung materi e-learning.'
     }
 ];
@@ -403,14 +400,14 @@ function PMBClient() {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].heroGlow
                     }, void 0, false, {
                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                        lineNumber: 273,
+                        lineNumber: 270,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].heroGridPattern
                     }, void 0, false, {
                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                        lineNumber: 274,
+                        lineNumber: 271,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -426,7 +423,7 @@ function PMBClient() {
                                             children: "Beranda"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 279,
+                                            lineNumber: 276,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -434,7 +431,7 @@ function PMBClient() {
                                             children: "/"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 280,
+                                            lineNumber: 277,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -442,13 +439,13 @@ function PMBClient() {
                                             children: "Penerimaan Mahasiswa Baru"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 281,
+                                            lineNumber: 278,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 278,
+                                    lineNumber: 275,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -457,7 +454,7 @@ function PMBClient() {
                                         "Penerimaan Mahasiswa Baru: ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 286,
+                                            lineNumber: 283,
                                             columnNumber: 42
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -465,13 +462,13 @@ function PMBClient() {
                                             children: "Gerbang Karir Profesional & Pemimpin Masa Depan"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 287,
+                                            lineNumber: 284,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 285,
+                                    lineNumber: 282,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -479,7 +476,7 @@ function PMBClient() {
                                     children: "Mulai perjalanan akademik Sarjana (S1) Manajemen Anda bersama STIE ARLINDO. Nikmati keunggulan kurikulum adaptif industri 4.0, prioritas magang bersertifikat di ekosistem Arlindo Group, dan skema pembiayaan kuliah yang terjangkau."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 291,
+                                    lineNumber: 288,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -493,7 +490,7 @@ function PMBClient() {
                                                     children: "Daftar Online Sekarang"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 298,
+                                                    lineNumber: 295,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -507,18 +504,18 @@ function PMBClient() {
                                                         d: "M5 12h14M12 5l7 7-7 7"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 300,
+                                                        lineNumber: 297,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 299,
+                                                    lineNumber: 296,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 297,
+                                            lineNumber: 294,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -545,14 +542,14 @@ function PMBClient() {
                                                             d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 311,
+                                                            lineNumber: 308,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("polyline", {
                                                             points: "7 10 12 15 17 10"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 312,
+                                                            lineNumber: 309,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -562,26 +559,26 @@ function PMBClient() {
                                                             y2: "3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 313,
+                                                            lineNumber: 310,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 310,
+                                                    lineNumber: 307,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Unduh E-Brosur"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 315,
+                                                    lineNumber: 312,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 303,
+                                            lineNumber: 300,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -590,30 +587,30 @@ function PMBClient() {
                                             children: "Alur & Persyaratan"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 317,
+                                            lineNumber: 314,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 296,
+                                    lineNumber: 293,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 276,
+                            lineNumber: 273,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                        lineNumber: 275,
+                        lineNumber: 272,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                lineNumber: 272,
+                lineNumber: 269,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -626,27 +623,19 @@ function PMBClient() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionHeaderCenter,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                        children: "Pilihan Jalur Pendaftaran"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 330,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                         children: "Pilih Jalur Masuk yang Sesuai dengan Anda"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 331,
+                                        lineNumber: 328,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "gold-line"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 332,
+                                        lineNumber: 329,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -654,18 +643,18 @@ function PMBClient() {
                                         children: "STIE ARLINDO menyediakan fleksibilitas jalur penerimaan untuk lulusan baru maupun kalangan profesional yang ingin melanjutkan studi sarjana."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 333,
+                                        lineNumber: 330,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                lineNumber: 329,
+                                lineNumber: 326,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 328,
+                            lineNumber: 325,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -685,7 +674,7 @@ function PMBClient() {
                                                     children: wave.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 349,
+                                                    lineNumber: 346,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -695,20 +684,20 @@ function PMBClient() {
                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].wavePulseDot
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 351,
+                                                            lineNumber: 348,
                                                             columnNumber: 36
                                                         }, this),
                                                         wave.status_label || (isActive ? 'Sedang Dibuka' : isPast ? 'Selesai' : 'Segera')
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 350,
+                                                    lineNumber: 347,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 348,
+                                            lineNumber: 345,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -733,7 +722,7 @@ function PMBClient() {
                                                             rx: "2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 358,
+                                                            lineNumber: 355,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -743,7 +732,7 @@ function PMBClient() {
                                                             y2: "6"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 359,
+                                                            lineNumber: 356,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -753,7 +742,7 @@ function PMBClient() {
                                                             y2: "6"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 360,
+                                                            lineNumber: 357,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -763,26 +752,26 @@ function PMBClient() {
                                                             y2: "10"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 361,
+                                                            lineNumber: 358,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 357,
+                                                    lineNumber: 354,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: wave.date_range
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 363,
+                                                    lineNumber: 360,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 356,
+                                            lineNumber: 353,
                                             columnNumber: 19
                                         }, this),
                                         wave.benefit ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -798,25 +787,25 @@ function PMBClient() {
                                                         points: "12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 369,
+                                                        lineNumber: 366,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 368,
+                                                    lineNumber: 365,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: wave.benefit
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 371,
+                                                    lineNumber: 368,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 367,
+                                            lineNumber: 364,
                                             columnNumber: 21
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
@@ -824,19 +813,19 @@ function PMBClient() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 374,
+                                            lineNumber: 371,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, wave.id, true, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 347,
+                                    lineNumber: 344,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 340,
+                            lineNumber: 337,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -851,7 +840,7 @@ function PMBClient() {
                                                 children: "Rekomendasi"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 386,
+                                                lineNumber: 383,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -859,7 +848,7 @@ function PMBClient() {
                                                 children: track.badge
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 388,
+                                                lineNumber: 385,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -867,7 +856,7 @@ function PMBClient() {
                                                 children: track.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 389,
+                                                lineNumber: 386,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -875,7 +864,7 @@ function PMBClient() {
                                                 children: track.desc
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 390,
+                                                lineNumber: 387,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -886,7 +875,7 @@ function PMBClient() {
                                                         children: "Benefit Utama:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 393,
+                                                        lineNumber: 390,
                                                         columnNumber: 21
                                                     }, this),
                                                     track.benefits.map((benefit, bIdx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -903,31 +892,31 @@ function PMBClient() {
                                                                         points: "20 6 9 17 4 12"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 397,
+                                                                        lineNumber: 394,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 396,
+                                                                    lineNumber: 393,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: benefit
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 399,
+                                                                    lineNumber: 396,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, bIdx, true, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 395,
+                                                            lineNumber: 392,
                                                             columnNumber: 23
                                                         }, this))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 392,
+                                                lineNumber: 389,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -938,7 +927,7 @@ function PMBClient() {
                                                         children: track.ctaText
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 405,
+                                                        lineNumber: 402,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -952,45 +941,45 @@ function PMBClient() {
                                                             d: "m9 18 6-6-6-6"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 407,
+                                                            lineNumber: 404,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 406,
+                                                        lineNumber: 403,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 404,
+                                                lineNumber: 401,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 384,
+                                        lineNumber: 381,
                                         columnNumber: 17
                                     }, this)
                                 }, idx, false, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 383,
+                                    lineNumber: 380,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 381,
+                            lineNumber: 378,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                    lineNumber: 327,
+                    lineNumber: 324,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                lineNumber: 326,
+                lineNumber: 323,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1003,27 +992,19 @@ function PMBClient() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionHeaderCenter,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                        children: "Tahapan Pendaftaran"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 422,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                         children: "Alur Registrasi Calon Mahasiswa Baru"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 423,
+                                        lineNumber: 420,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "gold-line"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 424,
+                                        lineNumber: 421,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1031,18 +1012,18 @@ function PMBClient() {
                                         children: "Proses pendaftaran cepat, transparan, dan dapat diselesaikan secara online dari mana saja."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 425,
+                                        lineNumber: 422,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                lineNumber: 421,
+                                lineNumber: 418,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 420,
+                            lineNumber: 417,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1060,7 +1041,7 @@ function PMBClient() {
                                                         children: step.num
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 436,
+                                                        lineNumber: 433,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1068,13 +1049,13 @@ function PMBClient() {
                                                         children: step.icon
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 437,
+                                                        lineNumber: 434,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 435,
+                                                lineNumber: 432,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1082,7 +1063,7 @@ function PMBClient() {
                                                 children: step.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 439,
+                                                lineNumber: 436,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1090,34 +1071,34 @@ function PMBClient() {
                                                 children: step.desc
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 440,
+                                                lineNumber: 437,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 434,
+                                        lineNumber: 431,
                                         columnNumber: 17
                                     }, this)
                                 }, step.num, false, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 433,
+                                    lineNumber: 430,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 431,
+                            lineNumber: 428,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                    lineNumber: 419,
+                    lineNumber: 416,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                lineNumber: 418,
+                lineNumber: 415,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1131,27 +1112,19 @@ function PMBClient() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].reqCardWrapper,
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                            children: "Kelengkapan Berkas"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 455,
-                                            columnNumber: 17
-                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].subSectionTitle,
                                             children: "Dokumen Persyaratan Administrasi"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 456,
+                                            lineNumber: 453,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "gold-line-left"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 457,
+                                            lineNumber: 454,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1159,7 +1132,7 @@ function PMBClient() {
                                             children: "Siapkan dokumen berikut dalam format fisik atau digital (scan) untuk kelancaran verifikasi identitas:"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 458,
+                                            lineNumber: 455,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1180,35 +1153,35 @@ function PMBClient() {
                                                                     points: "20 6 9 17 4 12"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 467,
+                                                                    lineNumber: 464,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 466,
+                                                                lineNumber: 463,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 465,
+                                                            lineNumber: 462,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: req
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 470,
+                                                            lineNumber: 467,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, rIdx, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 464,
+                                                    lineNumber: 461,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 462,
+                                            lineNumber: 459,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1228,7 +1201,7 @@ function PMBClient() {
                                                             r: "10"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 477,
+                                                            lineNumber: 474,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -1238,7 +1211,7 @@ function PMBClient() {
                                                             y2: "12"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 478,
+                                                            lineNumber: 475,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -1248,13 +1221,13 @@ function PMBClient() {
                                                             y2: "16"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 479,
+                                                            lineNumber: 476,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 476,
+                                                    lineNumber: 473,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1263,31 +1236,31 @@ function PMBClient() {
                                                             children: "Catatan:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 482,
+                                                            lineNumber: 479,
                                                             columnNumber: 21
                                                         }, this),
                                                         " Ijazah atau SKL dapat disusulkan bagi siswa kelas 12 yang belum menerima pengumuman kelulusan resmi."
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 481,
+                                                    lineNumber: 478,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 475,
+                                            lineNumber: 472,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 454,
+                                    lineNumber: 451,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                lineNumber: 453,
+                                lineNumber: 450,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ScrollReveal$2f$ScrollReveal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1299,7 +1272,7 @@ function PMBClient() {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].helpCenterGlow
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 491,
+                                            lineNumber: 488,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1307,7 +1280,7 @@ function PMBClient() {
                                             children: "Hotline Resmi Admisi"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 492,
+                                            lineNumber: 489,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1315,7 +1288,7 @@ function PMBClient() {
                                             children: "Butuh Bantuan atau Konsultasi Kuliah?"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 493,
+                                            lineNumber: 490,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1323,7 +1296,7 @@ function PMBClient() {
                                             children: "Tim Penerimaan Mahasiswa Baru STIE ARLINDO siap membantu menjawab pertanyaan Anda seputar biaya kuliah, beasiswa, dan panduan pendaftaran."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 494,
+                                            lineNumber: 491,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1345,17 +1318,17 @@ function PMBClient() {
                                                                     d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 502,
+                                                                    lineNumber: 499,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 501,
+                                                                lineNumber: 498,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 500,
+                                                            lineNumber: 497,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1365,7 +1338,7 @@ function PMBClient() {
                                                                     children: "WhatsApp Konsultasi:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 506,
+                                                                    lineNumber: 503,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1376,19 +1349,19 @@ function PMBClient() {
                                                                     children: "+62 812-8000-xxxx (Chat Langsung)"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 507,
+                                                                    lineNumber: 504,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 505,
+                                                            lineNumber: 502,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 499,
+                                                    lineNumber: 496,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1412,25 +1385,25 @@ function PMBClient() {
                                                                         rx: "2"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 516,
+                                                                        lineNumber: 513,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                                         d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 517,
+                                                                        lineNumber: 514,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 515,
+                                                                lineNumber: 512,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 514,
+                                                            lineNumber: 511,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1440,7 +1413,7 @@ function PMBClient() {
                                                                     children: "Email Admisi:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 521,
+                                                                    lineNumber: 518,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1449,19 +1422,19 @@ function PMBClient() {
                                                                     children: settings?.email || 'pmb@arlindo.ac.id'
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 522,
+                                                                    lineNumber: 519,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 520,
+                                                            lineNumber: 517,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 513,
+                                                    lineNumber: 510,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1483,25 +1456,25 @@ function PMBClient() {
                                                                         r: "10"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 531,
+                                                                        lineNumber: 528,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("polyline", {
                                                                         points: "12 6 12 12 16 14"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 532,
+                                                                        lineNumber: 529,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 530,
+                                                                lineNumber: 527,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 529,
+                                                            lineNumber: 526,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1511,7 +1484,7 @@ function PMBClient() {
                                                                     children: "Jam Layanan Kantor:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 536,
+                                                                    lineNumber: 533,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1519,19 +1492,19 @@ function PMBClient() {
                                                                     children: "Senin – Sabtu, 08:00 – 16:00 WIB"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 537,
+                                                                    lineNumber: 534,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 535,
+                                                            lineNumber: 532,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 528,
+                                                    lineNumber: 525,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1551,7 +1524,7 @@ function PMBClient() {
                                                                         d: "M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 544,
+                                                                        lineNumber: 541,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -1560,18 +1533,18 @@ function PMBClient() {
                                                                         r: "3"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 545,
+                                                                        lineNumber: 542,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 543,
+                                                                lineNumber: 540,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 542,
+                                                            lineNumber: 539,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1581,7 +1554,7 @@ function PMBClient() {
                                                                     children: "Lokasi Kampus:"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 549,
+                                                                    lineNumber: 546,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1589,25 +1562,25 @@ function PMBClient() {
                                                                     children: settings?.address || 'Jl. Lurah Namat, Jatirangga, Kec. Jatisampurna, Kota Bekasi'
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 550,
+                                                                    lineNumber: 547,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 548,
+                                                            lineNumber: 545,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 541,
+                                                    lineNumber: 538,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 498,
+                                            lineNumber: 495,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1632,52 +1605,52 @@ function PMBClient() {
                                                         d: "M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 565,
+                                                        lineNumber: 562,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 564,
+                                                    lineNumber: 561,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "Chat WhatsApp Admisi PMB"
+                                                    children: "Chat WhatsApp Admin PMB"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 567,
+                                                    lineNumber: 564,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 557,
+                                            lineNumber: 554,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 490,
+                                    lineNumber: 487,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                lineNumber: 489,
+                                lineNumber: 486,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                        lineNumber: 451,
+                        lineNumber: 448,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                    lineNumber: 450,
+                    lineNumber: 447,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                lineNumber: 449,
+                lineNumber: 446,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1690,27 +1663,19 @@ function PMBClient() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionHeaderCenter,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                        children: "Registrasi Calon Mahasiswa"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 580,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                         children: "Formulir Pendaftaran Online S1 Manajemen"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 581,
+                                        lineNumber: 578,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "gold-line"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 582,
+                                        lineNumber: 579,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1721,18 +1686,18 @@ function PMBClient() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 583,
+                                        lineNumber: 580,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                lineNumber: 579,
+                                lineNumber: 576,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 578,
+                            lineNumber: 575,
                             columnNumber: 11
                         }, this),
                         submittedData ? /* ===== TAMPILAN PENDAFTARAN SUKSES ===== */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ScrollReveal$2f$ScrollReveal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1752,17 +1717,17 @@ function PMBClient() {
                                                 points: "20 6 9 17 4 12"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 596,
+                                                lineNumber: 593,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                            lineNumber: 595,
+                                            lineNumber: 592,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 594,
+                                        lineNumber: 591,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1770,7 +1735,7 @@ function PMBClient() {
                                         children: "Pendaftaran Anda Berhasil Diterima!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 600,
+                                        lineNumber: 597,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1781,14 +1746,14 @@ function PMBClient() {
                                                 children: submittedData.full_name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 602,
+                                                lineNumber: 599,
                                                 columnNumber: 33
                                             }, this),
                                             "! Data registrasi Anda telah tersimpan secara resmi pada basis data sistem Penerimaan Mahasiswa Baru STIE ARLINDO."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 601,
+                                        lineNumber: 598,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1801,20 +1766,20 @@ function PMBClient() {
                                                         children: "Nama Calon Mahasiswa:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 607,
+                                                        lineNumber: 604,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                         children: submittedData.full_name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 608,
+                                                        lineNumber: 605,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 606,
+                                                lineNumber: 603,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1824,20 +1789,20 @@ function PMBClient() {
                                                         children: "Nomor WhatsApp:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 611,
+                                                        lineNumber: 608,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                         children: submittedData.phone
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 612,
+                                                        lineNumber: 609,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 610,
+                                                lineNumber: 607,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1847,20 +1812,20 @@ function PMBClient() {
                                                         children: "Email Terdaftar:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 615,
+                                                        lineNumber: 612,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                         children: submittedData.email
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 616,
+                                                        lineNumber: 613,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 614,
+                                                lineNumber: 611,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1870,7 +1835,7 @@ function PMBClient() {
                                                         children: "Jalur Pendaftaran:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 619,
+                                                        lineNumber: 616,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -1883,19 +1848,19 @@ function PMBClient() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 620,
+                                                        lineNumber: 617,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 618,
+                                                lineNumber: 615,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 605,
+                                        lineNumber: 602,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1903,7 +1868,7 @@ function PMBClient() {
                                         children: "Tim Admisi PMB kami akan menghubungi Anda melalui WhatsApp/Email dalam 1x24 jam kerja untuk tahapan verifikasi berkas dan jadwal konsultasi akademik."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 624,
+                                        lineNumber: 621,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1919,7 +1884,7 @@ function PMBClient() {
                                                         children: "Konfirmasi via WhatsApp"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 637,
+                                                        lineNumber: 634,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1933,18 +1898,18 @@ function PMBClient() {
                                                             d: "M5 12h14M12 5l7 7-7 7"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 639,
+                                                            lineNumber: 636,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 638,
+                                                        lineNumber: 635,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 629,
+                                                lineNumber: 626,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1953,24 +1918,24 @@ function PMBClient() {
                                                 children: "Daftarkan Calon Lain"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 642,
+                                                lineNumber: 639,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 628,
+                                        lineNumber: 625,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                lineNumber: 593,
+                                lineNumber: 590,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 592,
+                            lineNumber: 589,
                             columnNumber: 13
                         }, this) : /* ===== FORMULIR ELEGAN & MODERN ===== */ /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ScrollReveal$2f$ScrollReveal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             delay: 120,
@@ -1994,7 +1959,7 @@ function PMBClient() {
                                                         r: "10"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 655,
+                                                        lineNumber: 652,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -2004,7 +1969,7 @@ function PMBClient() {
                                                         y2: "12"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 656,
+                                                        lineNumber: 653,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -2014,26 +1979,26 @@ function PMBClient() {
                                                         y2: "16"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 657,
+                                                        lineNumber: 654,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 654,
+                                                lineNumber: 651,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: errorMessage
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 659,
+                                                lineNumber: 656,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 653,
+                                        lineNumber: 650,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2051,7 +2016,7 @@ function PMBClient() {
                                                                 children: "1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 667,
+                                                                lineNumber: 664,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2061,7 +2026,7 @@ function PMBClient() {
                                                                         children: "Identitas Pribadi Calon Mahasiswa"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 669,
+                                                                        lineNumber: 666,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2069,19 +2034,19 @@ function PMBClient() {
                                                                         children: "Masukkan identitas diri sesuai dokumen KTP atau Kartu Keluarga"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 670,
+                                                                        lineNumber: 667,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 668,
+                                                                lineNumber: 665,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 666,
+                                                        lineNumber: 663,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2099,13 +2064,13 @@ function PMBClient() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                lineNumber: 677,
+                                                                                lineNumber: 674,
                                                                                 columnNumber: 56
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 676,
+                                                                        lineNumber: 673,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2118,13 +2083,13 @@ function PMBClient() {
                                                                         required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 679,
+                                                                        lineNumber: 676,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 675,
+                                                                lineNumber: 672,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2138,13 +2103,13 @@ function PMBClient() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                lineNumber: 691,
+                                                                                lineNumber: 688,
                                                                                 columnNumber: 83
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 691,
+                                                                        lineNumber: 688,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2157,13 +2122,13 @@ function PMBClient() {
                                                                         required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 692,
+                                                                        lineNumber: 689,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 690,
+                                                                lineNumber: 687,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2177,13 +2142,13 @@ function PMBClient() {
                                                                                 children: "*"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                lineNumber: 704,
+                                                                                lineNumber: 701,
                                                                                 columnNumber: 81
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 704,
+                                                                        lineNumber: 701,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2196,13 +2161,13 @@ function PMBClient() {
                                                                         required: true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 705,
+                                                                        lineNumber: 702,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 703,
+                                                                lineNumber: 700,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2212,7 +2177,7 @@ function PMBClient() {
                                                                         children: "NIK / No. KTP (Opsional)"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 717,
+                                                                        lineNumber: 714,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2225,13 +2190,13 @@ function PMBClient() {
                                                                         maxLength: 20
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 718,
+                                                                        lineNumber: 715,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 716,
+                                                                lineNumber: 713,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2241,7 +2206,7 @@ function PMBClient() {
                                                                         children: "Jenis Kelamin"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 730,
+                                                                        lineNumber: 727,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2255,7 +2220,7 @@ function PMBClient() {
                                                                                 children: "Pilih Jenis Kelamin"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                lineNumber: 737,
+                                                                                lineNumber: 734,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2263,7 +2228,7 @@ function PMBClient() {
                                                                                 children: "Laki-laki"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                lineNumber: 738,
+                                                                                lineNumber: 735,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2271,19 +2236,19 @@ function PMBClient() {
                                                                                 children: "Perempuan"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                lineNumber: 739,
+                                                                                lineNumber: 736,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 731,
+                                                                        lineNumber: 728,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 729,
+                                                                lineNumber: 726,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2293,7 +2258,7 @@ function PMBClient() {
                                                                         children: "Tempat Lahir"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 744,
+                                                                        lineNumber: 741,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2305,13 +2270,13 @@ function PMBClient() {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].modernInput
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 745,
+                                                                        lineNumber: 742,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 743,
+                                                                lineNumber: 740,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2321,7 +2286,7 @@ function PMBClient() {
                                                                         children: "Tanggal Lahir"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 756,
+                                                                        lineNumber: 753,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2332,13 +2297,13 @@ function PMBClient() {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].modernInput
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 757,
+                                                                        lineNumber: 754,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 755,
+                                                                lineNumber: 752,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2349,7 +2314,7 @@ function PMBClient() {
                                                                         children: "Alamat Lengkap Domisili"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 767,
+                                                                        lineNumber: 764,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2361,25 +2326,25 @@ function PMBClient() {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].modernTextarea
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 768,
+                                                                        lineNumber: 765,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 766,
+                                                                lineNumber: 763,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 674,
+                                                        lineNumber: 671,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 665,
+                                                lineNumber: 662,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2393,7 +2358,7 @@ function PMBClient() {
                                                                 children: "2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 783,
+                                                                lineNumber: 780,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2403,7 +2368,7 @@ function PMBClient() {
                                                                         children: "Riwayat Pendidikan Terakhir"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 785,
+                                                                        lineNumber: 782,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2411,19 +2376,19 @@ function PMBClient() {
                                                                         children: "Informasi sekolah asal SMA / SMK / MA / sederajat"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 786,
+                                                                        lineNumber: 783,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 784,
+                                                                lineNumber: 781,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 782,
+                                                        lineNumber: 779,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2437,7 +2402,7 @@ function PMBClient() {
                                                                         children: "Nama Sekolah Asal"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 792,
+                                                                        lineNumber: 789,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2449,13 +2414,13 @@ function PMBClient() {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].modernInput
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 793,
+                                                                        lineNumber: 790,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 791,
+                                                                lineNumber: 788,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2465,7 +2430,7 @@ function PMBClient() {
                                                                         children: "Jurusan Sekolah Asal"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 804,
+                                                                        lineNumber: 801,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2477,13 +2442,13 @@ function PMBClient() {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].modernInput
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 805,
+                                                                        lineNumber: 802,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 803,
+                                                                lineNumber: 800,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2493,7 +2458,7 @@ function PMBClient() {
                                                                         children: "Tahun Kelulusan"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 816,
+                                                                        lineNumber: 813,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2505,25 +2470,25 @@ function PMBClient() {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].modernInput
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 817,
+                                                                        lineNumber: 814,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 815,
+                                                                lineNumber: 812,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 790,
+                                                        lineNumber: 787,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 781,
+                                                lineNumber: 778,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2537,7 +2502,7 @@ function PMBClient() {
                                                                 children: "3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 832,
+                                                                lineNumber: 829,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2547,7 +2512,7 @@ function PMBClient() {
                                                                         children: "Pilihan Jalur Pendaftaran"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 834,
+                                                                        lineNumber: 831,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2555,19 +2520,19 @@ function PMBClient() {
                                                                         children: "Pilih salah satu jalur penerimaan mahasiswa baru yang ingin Anda ikuti"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 835,
+                                                                        lineNumber: 832,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 833,
+                                                                lineNumber: 830,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 831,
+                                                        lineNumber: 828,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2584,7 +2549,7 @@ function PMBClient() {
                                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].hiddenRadio
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 846,
+                                                                        lineNumber: 843,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2593,12 +2558,12 @@ function PMBClient() {
                                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].radioDotInner
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                            lineNumber: 855,
+                                                                            lineNumber: 852,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 854,
+                                                                        lineNumber: 851,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2606,27 +2571,17 @@ function PMBClient() {
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].trackRadioHeader,
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].trackRadioTitle,
-                                                                                        children: opt.title
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                        lineNumber: 859,
-                                                                                        columnNumber: 31
-                                                                                    }, this),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].trackRadioBadge,
-                                                                                        children: opt.badge
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                        lineNumber: 860,
-                                                                                        columnNumber: 31
-                                                                                    }, this)
-                                                                                ]
-                                                                            }, void 0, true, {
+                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].trackRadioTitle,
+                                                                                    children: opt.title
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/src/app/pmb/PMBClient.js",
+                                                                                    lineNumber: 856,
+                                                                                    columnNumber: 31
+                                                                                }, this)
+                                                                            }, void 0, false, {
                                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                lineNumber: 858,
+                                                                                lineNumber: 855,
                                                                                 columnNumber: 29
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2634,30 +2589,30 @@ function PMBClient() {
                                                                                 children: opt.desc
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                                lineNumber: 862,
+                                                                                lineNumber: 858,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                        lineNumber: 857,
+                                                                        lineNumber: 854,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, opt.value, true, {
                                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                lineNumber: 841,
+                                                                lineNumber: 838,
                                                                 columnNumber: 25
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 839,
+                                                        lineNumber: 836,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 830,
+                                                lineNumber: 827,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2673,20 +2628,20 @@ function PMBClient() {
                                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].buttonSpinner
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 878,
+                                                                    lineNumber: 874,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: "Mengirim Formulir..."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 879,
+                                                                    lineNumber: 875,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 877,
+                                                            lineNumber: 873,
                                                             columnNumber: 25
                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                                             children: [
@@ -2694,7 +2649,7 @@ function PMBClient() {
                                                                     children: "Kirim Formulir Pendaftaran"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 883,
+                                                                    lineNumber: 879,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -2712,31 +2667,31 @@ function PMBClient() {
                                                                             y2: "12"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                            lineNumber: 885,
+                                                                            lineNumber: 881,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("polyline", {
                                                                             points: "12 5 19 12 12 19"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                            lineNumber: 886,
+                                                                            lineNumber: 882,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                                    lineNumber: 884,
+                                                                    lineNumber: 880,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 882,
+                                                            lineNumber: 878,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 871,
+                                                        lineNumber: 867,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2744,41 +2699,41 @@ function PMBClient() {
                                                         children: "🔒 Data pendaftaran Anda dilindungi kerahasiaannya dan hanya digunakan untuk keperluan verifikasi admisi STIE ARLINDO."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 891,
+                                                        lineNumber: 887,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 870,
+                                                lineNumber: 866,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 663,
+                                        lineNumber: 660,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                lineNumber: 651,
+                                lineNumber: 648,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 650,
+                            lineNumber: 647,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                    lineNumber: 577,
+                    lineNumber: 574,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                lineNumber: 576,
+                lineNumber: 573,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2790,27 +2745,19 @@ function PMBClient() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionHeaderCenter,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                        children: "Tanya Jawab Seputar PMB"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 907,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$pmb$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                         children: "Pertanyaan yang Sering Diajukan"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 908,
+                                        lineNumber: 904,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "gold-line"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 909,
+                                        lineNumber: 905,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2818,18 +2765,18 @@ function PMBClient() {
                                         children: "Temukan jawaban lengkap seputar prosedur masuk, skema beasiswa, perkuliahan, dan pembiayaan kuliah di STIE ARLINDO."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 910,
+                                        lineNumber: 906,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                lineNumber: 906,
+                                lineNumber: 902,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 905,
+                            lineNumber: 901,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2849,7 +2796,7 @@ function PMBClient() {
                                                         children: faq.q
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 925,
+                                                        lineNumber: 921,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2859,18 +2806,18 @@ function PMBClient() {
                                                             children: openFaq === index ? '−' : '+'
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                            lineNumber: 927,
+                                                            lineNumber: 923,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                        lineNumber: 926,
+                                                        lineNumber: 922,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 920,
+                                                lineNumber: 916,
                                                 columnNumber: 19
                                             }, this),
                                             openFaq === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2879,45 +2826,45 @@ function PMBClient() {
                                                     children: faq.a
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                    lineNumber: 932,
+                                                    lineNumber: 928,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                                                lineNumber: 931,
+                                                lineNumber: 927,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pmb/PMBClient.js",
-                                        lineNumber: 919,
+                                        lineNumber: 915,
                                         columnNumber: 17
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                                    lineNumber: 918,
+                                    lineNumber: 914,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/pmb/PMBClient.js",
-                            lineNumber: 916,
+                            lineNumber: 912,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/pmb/PMBClient.js",
-                    lineNumber: 904,
+                    lineNumber: 900,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/pmb/PMBClient.js",
-                lineNumber: 903,
+                lineNumber: 899,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/pmb/PMBClient.js",
-        lineNumber: 270,
+        lineNumber: 267,
         columnNumber: 5
     }, this);
 }

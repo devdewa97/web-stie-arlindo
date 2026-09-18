@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ScrollReveal from '@/components/ScrollReveal/ScrollReveal';
+import { BACKEND_URL } from '@/lib/api';
 import styles from './page.module.css';
 
 /* ===== DATA PILAR KEUNGGULAN AKADEMIK ===== */
@@ -242,7 +243,7 @@ export default function ProgramStudiClient() {
 
               {/* Content Right */}
               <div className={styles.overviewContent}>
-                <span className={styles.tagLabel}>Keunggulan Akademik</span>
+
                 <h2 className={styles.sectionTitle}>
                   Mencetak Sarjana Manajemen Berdaya Saing Global &amp; Berintegritas
                 </h2>
@@ -277,7 +278,7 @@ export default function ProgramStudiClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Konsentrasi Studi Terapan</span>
+
               <h2 className={styles.sectionTitle}>4 Konsentrasi Unggulan S1 Manajemen</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
@@ -359,7 +360,7 @@ export default function ProgramStudiClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Capaian Pembelajaran (Graduate Outcomes)</span>
+
               <h2 className={styles.sectionTitle}>Standar Kompetensi Sarjana STIE ARLINDO</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
@@ -379,6 +380,79 @@ export default function ProgramStudiClient() {
               </ScrollReveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ===== SECTION 4: CTA EXECUTIVE BANNER ===== */}
+      <section className={styles.ctaSection}>
+        <div className="container">
+          <ScrollReveal>
+            <div className={styles.ctaCard}>
+              {/* Ambient Background Glows & Pattern */}
+              <div className={styles.ctaGlowTop} />
+              <div className={styles.ctaGlowBottom} />
+              <div className={styles.ctaGridPattern} />
+
+              <div className={styles.ctaInner}>
+                {/* Status Indicator */}
+                <div className={styles.ctaStatusBadge}>
+                  <span className={styles.ctaStatusDot} />
+                  <span>PENERIMAAN MAHASISWA BARU 2026/2027</span>
+                </div>
+
+                {/* Main Heading */}
+                <h2 className={styles.ctaTitle}>
+                  Siap Menjadi Pemimpin Bisnis{' '}
+                  <span className={styles.ctaTitleGold}>Berdaya Saing Global?</span>
+                </h2>
+
+                {/* Subtitle */}
+                <p className={styles.ctaDesc}>
+                  Raih gelar Sarjana Manajemen (S.M.) di STIE ARLINDO dengan 4 konsentrasi terapan industri,
+                  kurikulum berbasis studi kasus nyata, serta bimbingan langsung dari akademisi dan praktisi korporasi.
+                </p>
+
+                {/* Actions & Buttons */}
+                <div className={styles.ctaActions}>
+                  <Link href="/pmb" className={`btn btn-gold btn-lg ${styles.ctaBtnPrimary}`}>
+                    <span>Daftar PMB Online</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12" />
+                      <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                  </Link>
+
+                  <a
+                    href={`${BACKEND_URL}/api/ebrochure/download`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`btn btn-outline btn-lg ${styles.ctaBtnBrosur}`}
+                    title="Unduh E-Brosur Resmi STIE ARLINDO"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    <span>Unduh E-Brosur</span>
+                  </a>
+
+                  <Link href="/kontak" className={`btn btn-outline btn-lg ${styles.ctaBtnOutline}`}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg>
+                    <span>Konsultasi Program</span>
+                  </Link>
+                </div>
+
+                {/* Reassurance Footer Note */}
+                <div className={styles.ctaFootnote}>
+                  <span className={styles.ctaFootnoteIcon}>✦</span>
+                  <span>Proses pendaftaran mudah secara daring · Informasi biaya kuliah &amp; skema beasiswa tersedia</span>
+                </div>
+              </div>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
     </>

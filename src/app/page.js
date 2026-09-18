@@ -52,10 +52,10 @@ const features = [
 ];
 
 const concentrations = [
-  { title: 'Manajemen Keuangan & Inklusi Keuangan', desc: 'Kuasai dunia keuangan modern, fintech, dan inklusi keuangan untuk masa depan yang cemerlang.' },
-  { title: 'Manajemen Pemasaran Digital', desc: 'Pelajari strategi pemasaran digital, SEO, social media marketing, dan e-commerce.' },
-  { title: 'Manajemen SDM & Proyek', desc: 'Kelola sumber daya manusia dan proyek dengan metodologi modern dan leadership skills.' },
-  { title: 'Manajemen Operasional & Berkelanjutan', desc: 'Optimalkan operasi bisnis dengan prinsip keberlanjutan dan efisiensi.' },
+  { title: 'Manajemen Keuangan', desc: 'Kuasai dunia keuangan modern, fintech, dan inklusi keuangan untuk masa depan yang cemerlang.' },
+  { title: 'Manajemen Pemasaran', desc: 'Pelajari strategi pemasaran digital, SEO, social media marketing, dan e-commerce.' },
+  { title: 'Manajemen SDM', desc: 'Kelola sumber daya manusia dan proyek dengan metodologi modern dan leadership skills.' },
+  { title: 'Manajemen Operasional', desc: 'Optimalkan operasi bisnis dengan prinsip keberlanjutan dan efisiensi.' },
 ];
 
 const testimonials = [
@@ -274,8 +274,8 @@ export default function HomePage() {
             date: item.published_at
               ? new Date(item.published_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })
               : item.created_at
-              ? new Date(item.created_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })
-              : '2026',
+                ? new Date(item.created_at).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })
+                : '2026',
             slug: item.slug,
             image: formatImageUrl(item.image || '/images/news-pmb.jpg'),
             isHighlight: idx === targetHighlightIdx,
@@ -337,8 +337,8 @@ export default function HomePage() {
               Mencetak Pemimpin Bisnis &amp; Manajemen <span className={styles.heroGold}>Berdaya Saing Global</span> Bersama STIE ARLINDO
             </h1>
             <p className={styles.heroDesc}>
-              Kampus Ekonomi &amp; Bisnis terakreditasi dengan Program S1 Manajemen 4 Konsentrasi Modern.
-              Didukung kurikulum aplikatif dan akses langsung ke ekosistem industri <strong>Arlindo Group</strong>.
+              Kampus ekonomi dan bisnis yang menghadirkan pendidikan manajemen aplikatif, relevan dengan kebutuhan industri,
+              serta membekali mahasiswa dengan kompetensi untuk menghadapi dunia kerja dan bisnis yang terus berkembang.
             </p>
             <div className={styles.heroButtons}>
               <Link href="/kontak" className="btn btn-gold btn-lg">
@@ -427,7 +427,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className={styles.welcomeText}>
-                <span className={styles.sectionLabel}>Selamat Datang</span>
+
                 <h2>Sambutan Ketua STIE ARLINDO</h2>
                 <div className="gold-line-left" />
                 <p>
@@ -458,7 +458,7 @@ export default function HomePage() {
         <div className="container">
           <ScrollReveal>
             <div className="text-center">
-              <span className={styles.sectionLabel}>Mengapa Memilih Kami</span>
+
               <h2>Keunggulan STIE ARLINDO</h2>
               <div className="gold-line" />
               <p style={{ maxWidth: 640, margin: '1rem auto 0', color: 'var(--gray-600)', fontSize: '0.95rem' }}>
@@ -515,8 +515,8 @@ export default function HomePage() {
         <div className="container">
           <ScrollReveal>
             <div className="text-center">
-              <span className={styles.sectionLabel}>Program Studi</span>
-              <h2>S1 Manajemen — 4 Konsentrasi</h2>
+
+              <h2>S1 Manajemen — 4 Konsentrasi Pendidikan</h2>
               <div className="gold-line" />
               <p style={{ maxWidth: 600, margin: '1rem auto 0' }}>
                 Pilih konsentrasi sesuai minat dan passion Anda untuk masa depan karir yang cerah.
@@ -548,7 +548,7 @@ export default function HomePage() {
           <ScrollReveal>
             <div className={styles.sectionHeaderBetween}>
               <div>
-                <span className={styles.sectionLabel}>Warta &amp; Agenda</span>
+
                 <h2>Artikel &amp; Pengumuman</h2>
                 <div className="gold-line-left" />
               </div>
@@ -647,8 +647,8 @@ export default function HomePage() {
                   </h2>
 
                   <p className={styles.pmbDesc}>
-                    Daftarkan diri Anda pada program S1 Manajemen dengan 4 konsentrasi terapan industri.
-                    Dapatkan kemudahan skema pembiayaan, beasiswa prestasi, serta akses langsung ke ekosistem bisnis Arlindo Group.
+                    Daftarkan diri Anda pada Program S1 Manajemen dengan 4 konsentrasi terapan yang relevan dengan kebutuhan industri. Nikmati kemudahan skema pembiayaan, kesempatan beasiswa prestasi,
+                    serta pembelajaran yang dirancang untuk mempersiapkan Anda menghadapi dunia profesional dan bisnis.
                   </p>
 
                   <div className={styles.pmbFeaturesList}>
@@ -702,13 +702,13 @@ export default function HomePage() {
                         const itemClass = isPast
                           ? `${styles.pmbWaveItem} ${styles.pmbWavePast}`
                           : isActive
-                          ? `${styles.pmbWaveItem} ${styles.pmbWaveActive}`
-                          : styles.pmbWaveItem;
+                            ? `${styles.pmbWaveItem} ${styles.pmbWaveActive}`
+                            : styles.pmbWaveItem;
                         const statusClass = isPast
                           ? styles.pmbStatusPast
                           : isActive
-                          ? styles.pmbStatusActive
-                          : styles.pmbStatusUpcoming;
+                            ? styles.pmbStatusActive
+                            : styles.pmbStatusUpcoming;
 
                         return (
                           <div key={wave.id} className={itemClass}>
@@ -757,7 +757,7 @@ export default function HomePage() {
           <ScrollReveal>
             <div className={styles.galleryHeader}>
               <div>
-                <span className={styles.sectionLabel}>Dokumentasi Kampus</span>
+
                 <h2>Galeri Kegiatan Mahasiswa</h2>
                 <div className="gold-line-left" />
               </div>
@@ -803,7 +803,7 @@ export default function HomePage() {
                   {highlightActivity.mediaType === 'video' && (
                     <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(0,0,0,0.25)', zIndex: 3 }}>
                       <div style={{ width: '56px', height: '56px', borderRadius: '50%', background: 'var(--gold-500)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--navy-900)', boxShadow: '0 4px 20px rgba(212,168,67,0.5)' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20 6 4" /></svg>
                       </div>
                     </div>
                   )}
@@ -845,7 +845,7 @@ export default function HomePage() {
                       <div className={styles.gallerySubOverlay} />
                       {item.mediaType === 'video' && (
                         <div style={{ position: 'absolute', top: '10px', left: '10px', background: 'rgba(239,68,68,0.9)', color: 'white', padding: '2px 7px', borderRadius: '4px', fontSize: '10px', fontWeight: 700, display: 'flex', alignItems: 'center', gap: '4px', zIndex: 2 }}>
-                          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3" /></svg>
                           VIDEO
                         </div>
                       )}
@@ -952,7 +952,7 @@ export default function HomePage() {
           <ScrollReveal>
             <div className={styles.testimonialHeader}>
               <div>
-                <span className={styles.sectionLabel}>Testimoni Alumni &amp; Mahasiswa</span>
+
                 <h2>Apa Kata Mereka</h2>
                 <div className="gold-line-left" />
               </div>

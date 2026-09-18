@@ -90,7 +90,7 @@ const pillarsData = [
 const coreValuesData = [
   {
     number: '01',
-    title: 'Integrity (Integritas)',
+    title: 'Integrity',
     desc: 'Menjunjung tinggi kejujuran, moralitas, transparansi akademik, etika profesi bisnis, serta tanggung jawab sosial sivitas.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -100,7 +100,7 @@ const coreValuesData = [
   },
   {
     number: '02',
-    title: 'Excellence (Keunggulan)',
+    title: 'Excellence',
     desc: 'Berkomitmen menghadirkan mutu terbaik dalam pengajaran, penelitian terapan, tata kelola, dan layanan kemahasiswaan.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -111,7 +111,7 @@ const coreValuesData = [
   },
   {
     number: '03',
-    title: 'Adaptive Innovation (Inovasi)',
+    title: 'Adaptive Innovation',
     desc: 'Responsif dan terbuka terhadap transformasi teknologi digital, dinamika pasar global, serta pemecahan masalah masa depan.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -123,7 +123,7 @@ const coreValuesData = [
   },
   {
     number: '04',
-    title: 'Synergy (Sinergi Berkelanjutan)',
+    title: 'Synergy',
     desc: 'Menjalin kolaborasi produktif dengan dunia industri, alumni, pemerintah, dan masyarakat demi dampak kebermanfaatan luas.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -140,7 +140,7 @@ const coreValuesData = [
 const trustData = [
   {
     title: 'Akreditasi BAN-PT',
-    subtitle: 'Program Studi S1 Manajemen Terakreditasi dengan predikat Baik Sekali.',
+    subtitle: 'Program Studi S1 Manajemen Terakreditasi BAN-PT.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -230,7 +230,7 @@ export default function TentangKamiClient() {
 
             {/* Subtitle */}
             <p className={styles.heroSubtitle}>
-              Sekolah Tinggi Ilmu Ekonomi (STIE) ARLINDO memadukan keunggulan akademik, kurikulum adaptif industri, 
+              Sekolah Tinggi Ilmu Ekonomi (STIE) ARLINDO memadukan keunggulan akademik, kurikulum adaptif industri,
               serta sinergi ekosistem dunia usaha terintegrasi untuk melahirkan profesional berintegritas dan siap memimpin perubahan.
             </p>
 
@@ -285,20 +285,20 @@ export default function TentangKamiClient() {
 
               {/* Text Column Right */}
               <div className={styles.profileContent}>
-                <span className={styles.tagLabel}>Profil &amp; Dedikasi Institusi</span>
+
                 <h2 className={styles.sectionTitle}>
                   Mewujudkan Pendidikan Manajemen Unggul di Jantung Pertumbuhan Kota Bekasi
                 </h2>
                 <div className="gold-line-left" />
                 <p>
-                  Sekolah Tinggi Ilmu Ekonomi (STIE) ARLINDO adalah perguruan tinggi ekonomi modern yang berlokasi strategis di 
-                  Kecamatan Jatisampurna, Kota Bekasi, Jawa Barat. STIE ARLINDO menyelenggarakan Program Studi <strong>S1 Manajemen</strong> dengan 
-                  4 konsentrasi keahlian terapan: <em>Manajemen Keuangan &amp; Inklusi Keuangan</em>, <em>Manajemen Pemasaran Digital</em>, 
+                  Sekolah Tinggi Ilmu Ekonomi (STIE) ARLINDO adalah perguruan tinggi ekonomi modern yang berlokasi strategis di
+                  Kecamatan Jatisampurna, Kota Bekasi, Jawa Barat. STIE ARLINDO menyelenggarakan Program Studi <strong>S1 Manajemen</strong> dengan
+                  4 konsentrasi keahlian terapan: <em>Manajemen Keuangan &amp; Inklusi Keuangan</em>, <em>Manajemen Pemasaran Digital</em>,
                   <em>Manajemen SDM &amp; Proyek</em>, serta <em>Manajemen Operasional &amp; Berkelanjutan</em>.
                 </p>
                 <p>
-                  Didukung oleh kemitraan erat dengan ekosistem bisnis <strong>Arlindo Group</strong> dan berbagai mitra industri multinasional, 
-                  proses perkuliahan di STIE ARLINDO dirancang memberikan pengalaman praktis nyata sejak semester awal, membekali mahasiswa dengan 
+                  Didukung oleh kemitraan erat dengan ekosistem bisnis <strong>Arlindo Group</strong> dan berbagai mitra industri multinasional,
+                  proses perkuliahan di STIE ARLINDO dirancang memberikan pengalaman praktis nyata sejak semester awal, membekali mahasiswa dengan
                   kemampuan analisis bisnis mendalam serta kematangan etika kepemimpinan.
                 </p>
 
@@ -325,7 +325,7 @@ export default function TentangKamiClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Arah &amp; Panduan Strategis</span>
+
               <h2 className={styles.sectionTitle}>Visi, Misi &amp; Komitmen Keunggulan</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
@@ -414,7 +414,7 @@ export default function TentangKamiClient() {
           <div className={styles.valuesSection}>
             <ScrollReveal>
               <div className="text-center" style={{ marginBottom: '2.5rem' }}>
-                <span className={styles.tagLabel}>Nilai-Nilai Dasar (Core Values)</span>
+
                 <h3 style={{ fontSize: '1.75rem', color: 'var(--navy-900)' }}>Fondasi Karakter Sivitas Akademika</h3>
               </div>
             </ScrollReveal>
@@ -442,7 +442,7 @@ export default function TentangKamiClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Sarana &amp; Prasarana Unggulan</span>
+
               <h2 className={styles.sectionTitle}>Fasilitas Kampus STIE ARLINDO</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
@@ -481,7 +481,7 @@ export default function TentangKamiClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Kepemimpinan Institusional</span>
+
               <h2 className={styles.sectionTitle}>Komitmen Pimpinan STIE ARLINDO</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
@@ -553,7 +553,7 @@ export default function TentangKamiClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter} style={{ marginBottom: '2.5rem' }}>
-              <span className={styles.tagLabel}>Legitimasi &amp; Penjaminan Mutu</span>
+
               <h3 className={styles.sectionTitle} style={{ fontSize: '1.85rem' }}>Legalitas Resmi &amp; Pengakuan Negara</h3>
               <div className="gold-line" />
             </div>

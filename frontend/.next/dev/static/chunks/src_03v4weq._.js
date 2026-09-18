@@ -179,7 +179,7 @@ var _s = __turbopack_context__.k.signature();
 /* ===== DATA NILAI-NILAI DASAR (CORE VALUES) ===== */ const coreValuesData = [
     {
         number: '01',
-        title: 'Integrity (Integritas)',
+        title: 'Integrity',
         desc: 'Menjunjung tinggi kejujuran, moralitas, transparansi akademik, etika profesi bisnis, serta tanggung jawab sosial sivitas.',
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
             width: "22",
@@ -205,7 +205,7 @@ var _s = __turbopack_context__.k.signature();
     },
     {
         number: '02',
-        title: 'Excellence (Keunggulan)',
+        title: 'Excellence',
         desc: 'Berkomitmen menghadirkan mutu terbaik dalam pengajaran, penelitian terapan, tata kelola, dan layanan kemahasiswaan.',
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
             width: "22",
@@ -242,7 +242,7 @@ var _s = __turbopack_context__.k.signature();
     },
     {
         number: '03',
-        title: 'Adaptive Innovation (Inovasi)',
+        title: 'Adaptive Innovation',
         desc: 'Responsif dan terbuka terhadap transformasi teknologi digital, dinamika pasar global, serta pemecahan masalah masa depan.',
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
             width: "22",
@@ -284,7 +284,7 @@ var _s = __turbopack_context__.k.signature();
     },
     {
         number: '04',
-        title: 'Synergy (Sinergi Berkelanjutan)',
+        title: 'Synergy',
         desc: 'Menjalin kolaborasi produktif dengan dunia industri, alumni, pemerintah, dan masyarakat demi dampak kebermanfaatan luas.',
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
             width: "22",
@@ -337,7 +337,7 @@ var _s = __turbopack_context__.k.signature();
 /* ===== DATA LEGALITAS & PENJAMIN MUTU ===== */ const trustData = [
     {
         title: 'Akreditasi BAN-PT',
-        subtitle: 'Program Studi S1 Manajemen Terakreditasi dengan predikat Baik Sekali.',
+        subtitle: 'Program Studi S1 Manajemen Terakreditasi BAN-PT.',
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
             width: "24",
             height: "24",
@@ -807,14 +807,6 @@ function TentangKamiClient() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].profileContent,
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                            children: "Profil & Dedikasi Institusi"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
-                                            lineNumber: 288,
-                                            columnNumber: 17
-                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                             children: "Mewujudkan Pendidikan Manajemen Unggul di Jantung Pertumbuhan Kota Bekasi"
@@ -979,14 +971,6 @@ function TentangKamiClient() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionHeaderCenter,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                        children: "Arah & Panduan Strategis"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
-                                        lineNumber: 328,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                         children: "Visi, Misi & Komitmen Keunggulan"
@@ -1431,28 +1415,18 @@ function TentangKamiClient() {
                                         style: {
                                             marginBottom: '2.5rem'
                                         },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                                children: "Nilai-Nilai Dasar (Core Values)"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
-                                                lineNumber: 417,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                style: {
-                                                    fontSize: '1.75rem',
-                                                    color: 'var(--navy-900)'
-                                                },
-                                                children: "Fondasi Karakter Sivitas Akademika"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
-                                                lineNumber: 418,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            style: {
+                                                fontSize: '1.75rem',
+                                                color: 'var(--navy-900)'
+                                            },
+                                            children: "Fondasi Karakter Sivitas Akademika"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
+                                            lineNumber: 418,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
                                         fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
                                         lineNumber: 416,
                                         columnNumber: 15
@@ -1553,14 +1527,6 @@ function TentangKamiClient() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionHeaderCenter,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                        children: "Sarana & Prasarana Unggulan"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
-                                        lineNumber: 445,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                         children: "Fasilitas Kampus STIE ARLINDO"
@@ -1681,14 +1647,6 @@ function TentangKamiClient() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionHeaderCenter,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                        children: "Kepemimpinan Institusional"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
-                                        lineNumber: 484,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                         children: "Komitmen Pimpinan STIE ARLINDO"
@@ -1996,14 +1954,6 @@ function TentangKamiClient() {
                                     marginBottom: '2.5rem'
                                 },
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tagLabel,
-                                        children: "Legitimasi & Penjaminan Mutu"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/tentang-kami/TentangKamiClient.js",
-                                        lineNumber: 556,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$tentang$2d$kami$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].sectionTitle,
                                         style: {

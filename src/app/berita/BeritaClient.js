@@ -243,7 +243,7 @@ export default function BeritaClient({
             {/* Quick Actions */}
             <div className={styles.heroActions}>
               <a href="#koleksi-berita" className="btn btn-gold">
-                <span>Eksplorasi Warta</span>
+                <span>Eksplorasi Berita</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="m6 9 6 6 6-6" />
                 </svg>
@@ -359,8 +359,8 @@ export default function BeritaClient({
                   <h3 className={styles.emptyTitle}>Tidak Ada Artikel yang Cocok</h3>
                   <p className={styles.emptySubtitle}>
                     {searchQuery.trim()
-                      ? `Tidak ditemukan warta dengan kata kunci "${searchQuery}" pada kategori yang dipilih.`
-                      : 'Belum ada artikel warta yang diterbitkan dalam kategori ini.'}
+                      ? `Tidak ditemukan berita dengan kata kunci "${searchQuery}" pada kategori yang dipilih.`
+                      : 'Belum ada artikel berita yang diterbitkan dalam kategori ini.'}
                   </p>
                   <button
                     type="button"
@@ -393,7 +393,7 @@ export default function BeritaClient({
                         <div className={styles.featuredContent}>
                           <div className={styles.featuredCatWrap}>
                             <span className={styles.newsCat}>
-                              {featuredArticle.category || 'Warta Kampus'}
+                              {featuredArticle.category || 'Berita Kampus'}
                             </span>
                           </div>
                           <h2>{featuredArticle.title}</h2>
@@ -533,7 +533,7 @@ export default function BeritaClient({
                 <div className={styles.widgetHeader}>
                   <div>
                     <h4 className={styles.widgetTitle}>Kategori Berita</h4>
-                    <p className={styles.widgetSubtitle}>Filter warta sesuai topik</p>
+                    <p className={styles.widgetSubtitle}>Filter Berita sesuai topik</p>
                   </div>
                 </div>
 
@@ -604,7 +604,7 @@ export default function BeritaClient({
                 <div className={styles.editorialText}>
                   <div className={styles.editorialHeading}>Biro Media Arlindo</div>
                   <p className={styles.editorialSub}>
-                    Punya informasi kegiatan kampus atau ingin bermitra publikasi warta?
+                    Punya informasi kegiatan kampus atau ingin bermitra publikasi berita?
                   </p>
                   <Link href="/kontak" className={styles.editorialLink}>
                     Hubungi Redaksi &rarr;

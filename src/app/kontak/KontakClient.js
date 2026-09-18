@@ -12,7 +12,7 @@ function getContactHighlights(settings, waNumber) {
   return [
     {
       id: 'alamat',
-      title: 'Kampus Terpadu',
+      title: 'Alamat Kampus',
       subtitle: 'Gedung Rektorat & Perkuliahan',
       detail: settings?.address || 'Jl. Lurah Namat, RT.002/RW.003, Jatirangga, Kec. Jatisampurna, Kota Bekasi, Jawa Barat 17434',
       actionText: 'Lihat Peta Kampus',
@@ -27,7 +27,7 @@ function getContactHighlights(settings, waNumber) {
     },
     {
       id: 'telepon',
-      title: 'Hotline & WhatsApp Admisi',
+      title: 'Hotline & WhatsApp Admin',
       subtitle: 'Layanan Calon Mahasiswa',
       detail: `${settings?.whatsapp || '0812-9000-8899'} / ${settings?.phone || '(021) 845-8899'}\nKonsultasi pendaftaran & beasiswa setiap hari kerja`,
       actionText: 'Chat WhatsApp Resmi',
@@ -41,7 +41,7 @@ function getContactHighlights(settings, waNumber) {
     },
     {
       id: 'email',
-      title: 'Surat Elektronik Resmi',
+      title: 'Email Resmi',
       subtitle: 'Korespondensi & Administrasi',
       detail: `${settings?.email || 'info@arlindo.ac.id'}\nRespon surat & korespondensi dalam 1x24 jam kerja`,
       actionText: 'Kirim Email Resmi',
@@ -56,7 +56,7 @@ function getContactHighlights(settings, waNumber) {
     },
     {
       id: 'jam-kerja',
-      title: 'Jam Layanan Terpadu',
+      title: 'Jam Layanan',
       subtitle: 'Waktu Operasional Kantor',
       detail: 'Senin – Jumat: 08.00 – 16.30 WIB\nSabtu: 08.30 – 13.00 WIB (Admisi PMB)',
       actionText: 'Jadwalkan Kunjungan',
@@ -76,7 +76,7 @@ function getContactHighlights(settings, waNumber) {
 function getDepartmentsData(settings, waNumber) {
   return [
     {
-      name: 'Biro Admisi & PMB',
+      name: 'Bagian Admisi & PMB',
       badge: 'Penerimaan Mahasiswa',
       desc: 'Layanan pendaftaran mahasiswa baru, informasi beasiswa prestasi & KIP Kuliah, biaya pendidikan, serta konsultasi program perkuliahan.',
       contact: settings?.whatsapp || '0812-9000-8899',
@@ -84,7 +84,7 @@ function getDepartmentsData(settings, waNumber) {
       actionUrl: `https://wa.me/${waNumber}?text=Halo%20Biro%20Admisi%20STIE%20ARLINDO`,
     },
     {
-      name: 'Biro Akademik & BAAK',
+      name: 'Bagian Akademik & BAAK',
       badge: 'Layanan Mahasiswa Aktif',
       desc: 'Pengurusan KRS perkuliahan, transkrip nilai akademik sementara, surat aktif kuliah, legalisir dokumen, dan administrasi perkuliahan.',
       contact: `${settings?.phone || '(021) 845-8899'} Ext. 102`,
@@ -541,7 +541,7 @@ export default function KontakClient() {
                   {/* Header Info */}
                   <div className={styles.mapHeader}>
                     <span className={styles.sectionBadge}>Peta &amp; Akses Kampus</span>
-                    <h3 className={styles.mapTitle}>Kampus Terpadu STIE ARLINDO</h3>
+                    <h3 className={styles.mapTitle}>Maps STIE ARLINDO</h3>
 
                     <div className={styles.mapAddressBox}>
                       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={styles.mapPinIcon}>

@@ -26,7 +26,7 @@ var _s = __turbopack_context__.k.signature();
     return [
         {
             id: 'alamat',
-            title: 'Kampus Terpadu',
+            title: 'Alamat Kampus',
             subtitle: 'Gedung Rektorat & Perkuliahan',
             detail: settings?.address || 'Jl. Lurah Namat, RT.002/RW.003, Jatirangga, Kec. Jatisampurna, Kota Bekasi, Jawa Barat 17434',
             actionText: 'Lihat Peta Kampus',
@@ -67,7 +67,7 @@ var _s = __turbopack_context__.k.signature();
         },
         {
             id: 'telepon',
-            title: 'Hotline & WhatsApp Admisi',
+            title: 'Hotline & WhatsApp Admin',
             subtitle: 'Layanan Calon Mahasiswa',
             detail: `${settings?.whatsapp || '0812-9000-8899'} / ${settings?.phone || '(021) 845-8899'}\nKonsultasi pendaftaran & beasiswa setiap hari kerja`,
             actionText: 'Chat WhatsApp Resmi',
@@ -97,7 +97,7 @@ var _s = __turbopack_context__.k.signature();
         },
         {
             id: 'email',
-            title: 'Surat Elektronik Resmi',
+            title: 'Email Resmi',
             subtitle: 'Korespondensi & Administrasi',
             detail: `${settings?.email || 'info@arlindo.ac.id'}\nRespon surat & korespondensi dalam 1x24 jam kerja`,
             actionText: 'Kirim Email Resmi',
@@ -136,7 +136,7 @@ var _s = __turbopack_context__.k.signature();
         },
         {
             id: 'jam-kerja',
-            title: 'Jam Layanan Terpadu',
+            title: 'Jam Layanan',
             subtitle: 'Waktu Operasional Kantor',
             detail: 'Senin – Jumat: 08.00 – 16.30 WIB\nSabtu: 08.30 – 13.00 WIB (Admisi PMB)',
             actionText: 'Jadwalkan Kunjungan',
@@ -180,7 +180,7 @@ var _s = __turbopack_context__.k.signature();
 /* ===== DIREKTORI LAYANAN DEPARTEMEN ===== */ function getDepartmentsData(settings, waNumber) {
     return [
         {
-            name: 'Biro Admisi & PMB',
+            name: 'Bagian Admisi & PMB',
             badge: 'Penerimaan Mahasiswa',
             desc: 'Layanan pendaftaran mahasiswa baru, informasi beasiswa prestasi & KIP Kuliah, biaya pendidikan, serta konsultasi program perkuliahan.',
             contact: settings?.whatsapp || '0812-9000-8899',
@@ -188,7 +188,7 @@ var _s = __turbopack_context__.k.signature();
             actionUrl: `https://wa.me/${waNumber}?text=Halo%20Biro%20Admisi%20STIE%20ARLINDO`
         },
         {
-            name: 'Biro Akademik & BAAK',
+            name: 'Bagian Akademik & BAAK',
             badge: 'Layanan Mahasiswa Aktif',
             desc: 'Pengurusan KRS perkuliahan, transkrip nilai akademik sementara, surat aktif kuliah, legalisir dokumen, dan administrasi perkuliahan.',
             contact: `${settings?.phone || '(021) 845-8899'} Ext. 102`,
@@ -1481,7 +1481,7 @@ function KontakClient() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$kontak$2f$page$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].mapTitle,
-                                                        children: "Kampus Terpadu STIE ARLINDO"
+                                                        children: "Maps STIE ARLINDO"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/kontak/KontakClient.js",
                                                         lineNumber: 544,

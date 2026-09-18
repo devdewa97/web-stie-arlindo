@@ -663,6 +663,243 @@
   margin: 0;
 }
 
+.outcomesSection {
+  padding-bottom: 2rem !important;
+}
+
+/* ===================================================
+   CTA EXECUTIVE BANNER SECTION
+   =================================================== */
+.ctaSection {
+  position: relative;
+  padding: 1.5rem 0 5.5rem;
+  background: linear-gradient(180deg, var(--white) 0%, var(--navy-50) 100%);
+  overflow: hidden;
+}
+
+.ctaCard {
+  position: relative;
+  border-radius: 28px;
+  background: linear-gradient(140deg, #060D1A 0%, #0A1628 45%, #0F2042 100%);
+  border: 1px solid rgba(212, 168, 67, 0.32);
+  box-shadow: 0 24px 64px -12px rgba(6, 13, 26, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  padding: 4.5rem 3.5rem;
+  text-align: center;
+}
+
+.ctaGlowTop {
+  position: absolute;
+  top: -120px;
+  right: -80px;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(212, 168, 67, 0.18) 0%, rgba(212, 168, 67, 0.04) 50%, transparent 70%);
+  pointer-events: none;
+  filter: blur(35px);
+  z-index: 1;
+}
+
+.ctaGlowBottom {
+  position: absolute;
+  bottom: -120px;
+  left: -80px;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59, 107, 181, 0.2) 0%, transparent 70%);
+  pointer-events: none;
+  filter: blur(45px);
+  z-index: 1;
+}
+
+.ctaGridPattern {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.ctaInner {
+  position: relative;
+  z-index: 2;
+  max-width: 820px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctaStatusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 1.15rem;
+  border-radius: 9999px;
+  background: rgba(212, 168, 67, 0.12);
+  border: 1px solid rgba(212, 168, 67, 0.32);
+  color: var(--gold-400);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.ctaStatusDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--gold-400);
+  box-shadow: 0 0 10px var(--gold-400);
+  animation: ctaDotPulse 2s infinite ease-in-out;
+}
+
+@keyframes ctaDotPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.5;
+  }
+}
+
+.ctaTitle {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1.25;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.025em;
+}
+
+.ctaTitleGold {
+  background: linear-gradient(135deg, #FBF3DC 0%, #E5C05C 50%, #D4A843 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
+.ctaDesc {
+  font-size: 1.05rem;
+  color: rgba(232, 237, 245, 0.85);
+  line-height: 1.75;
+  max-width: 680px;
+  margin: 0 auto 2.2rem;
+}
+
+.ctaBtnBrosur {
+  background: rgba(212, 168, 67, 0.12) !important;
+  border: 1px solid rgba(212, 168, 67, 0.38) !important;
+  color: var(--gold-300) !important;
+  font-weight: 600 !important;
+  padding: 0.95rem 1.85rem !important;
+  border-radius: var(--radius-md) !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  backdrop-filter: blur(8px);
+  transition: all var(--transition-base);
+}
+
+.ctaBtnBrosur:hover {
+  background: rgba(212, 168, 67, 0.22) !important;
+  border-color: var(--gold-400) !important;
+  color: var(--white) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(212, 168, 67, 0.3);
+}
+
+.ctaBtnBrosur svg {
+  transition: transform var(--transition-fast);
+}
+
+.ctaBtnBrosur:hover svg {
+  transform: translateY(2px);
+}
+
+
+.ctaActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.8rem;
+}
+
+.ctaBtnPrimary {
+  background: linear-gradient(135deg, #E5C05C 0%, #D4A843 100%) !important;
+  color: var(--navy-950) !important;
+  font-weight: 700 !important;
+  padding: 0.95rem 2rem !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: 0 6px 24px rgba(212, 168, 67, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  transition: all var(--transition-base);
+  border: none !important;
+}
+
+.ctaBtnPrimary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(212, 168, 67, 0.5);
+  background: linear-gradient(135deg, #F0D77A 0%, #E5C05C 100%) !important;
+}
+
+.ctaBtnPrimary svg {
+  transition: transform var(--transition-fast);
+}
+
+.ctaBtnPrimary:hover svg {
+  transform: translateX(4px);
+}
+
+.ctaBtnOutline {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  color: var(--white) !important;
+  font-weight: 600 !important;
+  padding: 0.95rem 1.85rem !important;
+  border-radius: var(--radius-md) !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  backdrop-filter: blur(8px);
+  transition: all var(--transition-base);
+}
+
+.ctaBtnOutline:hover {
+  background: rgba(255, 255, 255, 0.14) !important;
+  border-color: rgba(212, 168, 67, 0.6) !important;
+  color: var(--gold-300) !important;
+  transform: translateY(-3px);
+}
+
+.ctaFootnote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.84rem;
+  color: rgba(232, 237, 245, 0.65);
+  margin-top: 0.2rem;
+}
+
+.ctaFootnoteIcon {
+  color: var(--gold-400);
+  font-size: 0.85rem;
+}
+
 /* ===================================================
    RESPONSIVE DESIGN
    =================================================== */
@@ -724,6 +961,37 @@
 
   .pillarCard {
     padding: 0.85rem 1rem;
+  }
+
+  .outcomesSection {
+    padding-bottom: 1.5rem !important;
+  }
+
+  /* CTA Responsive 768px */
+  .ctaSection {
+    padding: 1rem 0 4rem;
+  }
+
+  .ctaCard {
+    padding: 3rem 1.75rem;
+    border-radius: 22px;
+  }
+
+  .ctaTitle {
+    font-size: 2rem;
+  }
+
+  .ctaActions {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.85rem;
+  }
+
+  .ctaBtnPrimary,
+  .ctaBtnBrosur,
+  .ctaBtnOutline {
+    width: 100%;
+    justify-content: center;
   }
 }
 
@@ -818,4 +1086,42 @@
   .pillarCard p {
     font-size: 0.84rem;
   }
+
+  .outcomesSection {
+    padding-bottom: 1rem !important;
+  }
+
+  /* CTA Responsive 480px */
+  .ctaSection {
+    padding: 0.75rem 0 3rem;
+  }
+
+  .ctaCard {
+    padding: 2.25rem 1.25rem;
+    border-radius: 18px;
+  }
+
+  .ctaTitle {
+    font-size: 1.6rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .ctaDesc {
+    font-size: 0.9rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .ctaStatusBadge {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.85rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .ctaFootnote {
+    font-size: 0.75rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.35rem;
+  }
 }
+

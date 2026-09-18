@@ -96,7 +96,8 @@ export default function GalleryClient() {
         <div className="container">
           <ScrollReveal>
             <div className={styles.sectionHeaderCenter}>
-              <span className={styles.tagLabel}>Dokumentasi Visual</span>
+
+
               <h2 className={styles.sectionTitle}>Arsip Kegiatan STIE ARLINDO</h2>
               <div className="gold-line" />
               <p className={styles.sectionSubtitle}>
